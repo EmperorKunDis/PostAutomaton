@@ -1,0 +1,31 @@
+Entrypoint [1mmain[39m[22m = [1m[32mruntime.5797698c35a1c36e.js[39m[22m [1m[32mmain.5be1aa6a9f52593b.js[39m[22m
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.5797698c35a1c36e.js[39m[22m [1m[32mstyles.ea30c99cd9c814ee.css[39m[22m [1m[32mstyles.4074f4b105524e46.js[39m[22m
+chunk (runtime: runtime) [1m[32mmain.5be1aa6a9f52593b.js[39m[22m (main) 1.43 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.5797698c35a1c36e.js[39m[22m (runtime) 3.36 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.ea30c99cd9c814ee.css[39m[22m, [1m[32mstyles.4074f4b105524e46.js[39m[22m (styles) 50 bytes (javascript) 360 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./apps/web/src/stores/authStore.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ id: string; email: string; name: string; role: string; }' is not assignable to type 'User'.
+  Types of property 'role' are incompatible.
+    Type 'string' is not assignable to type '"Admin" | "Editor" | "Reviewer" | "Guest"'.
+  [0m [90m 31 |[39m       
+   [90m 32 |[39m       [36mset[39m({
+  [31m[1m>[22m[39m[90m 33 |[39m         user[33m:[39m authResponse[33m.[39muser[33m,[39m
+   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 34 |[39m         isAuthenticated[33m:[39m [36mtrue[39m[33m,[39m
+   [90m 35 |[39m         isLoading[33m:[39m [36mfalse[39m[33m,[39m
+   [90m 36 |[39m         error[33m:[39m [36mnull[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./apps/web/src/stores/authStore.ts:[32m[1m55:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ id: string; email: string; name: string; role: string; }' is not assignable to type 'User'.
+  Types of property 'role' are incompatible.
+    Type 'string' is not assignable to type '"Admin" | "Editor" | "Reviewer" | "Guest"'.
+  [0m [90m 53 |[39m       
+   [90m 54 |[39m       [36mset[39m({
+  [31m[1m>[22m[39m[90m 55 |[39m         user[33m:[39m authResponse[33m.[39muser[33m,[39m
+   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 56 |[39m         isAuthenticated[33m:[39m [36mtrue[39m[33m,[39m
+   [90m 57 |[39m         isLoading[33m:[39m [36mfalse[39m[33m,[39m
+   [90m 58 |[39m         error[33m:[39m [36mnull[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a7b0b8af6e41d0ce)

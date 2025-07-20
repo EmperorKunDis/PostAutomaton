@@ -1,0 +1,976 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.3.0",
+  "pathMappings": {
+    "@internal-marketing-content-app/shared": [
+      "packages/shared/src/index.ts"
+    ],
+    "@internal-marketing-content-app/ui": [
+      "packages/ui/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".bmad-core/agent-teams/team-all.yaml",
+        "hash": "4537473644805309810"
+      },
+      {
+        "file": ".bmad-core/agent-teams/team-fullstack.yaml",
+        "hash": "8152125413092630298"
+      },
+      {
+        "file": ".bmad-core/agent-teams/team-ide-minimal.yaml",
+        "hash": "4063856261287734032"
+      },
+      {
+        "file": ".bmad-core/agent-teams/team-no-ui.yaml",
+        "hash": "6289331546812925120"
+      },
+      {
+        "file": ".bmad-core/agents/analyst.md",
+        "hash": "3848269808282157714"
+      },
+      {
+        "file": ".bmad-core/agents/architect.md",
+        "hash": "5006206920125513315"
+      },
+      {
+        "file": ".bmad-core/agents/bmad-master.md",
+        "hash": "200895702145130185"
+      },
+      {
+        "file": ".bmad-core/agents/bmad-orchestrator.md",
+        "hash": "1739450662695201008"
+      },
+      {
+        "file": ".bmad-core/agents/dev.md",
+        "hash": "2120592773078422332"
+      },
+      {
+        "file": ".bmad-core/agents/pm.md",
+        "hash": "12458348857967308397"
+      },
+      {
+        "file": ".bmad-core/agents/po.md",
+        "hash": "4706679240143337718"
+      },
+      {
+        "file": ".bmad-core/agents/qa.md",
+        "hash": "16009406990543149101"
+      },
+      {
+        "file": ".bmad-core/agents/sm.md",
+        "hash": "7846947202556089365"
+      },
+      {
+        "file": ".bmad-core/agents/ux-expert.md",
+        "hash": "908521894716604638"
+      },
+      {
+        "file": ".bmad-core/checklists/architect-checklist.md",
+        "hash": "857651173762504260"
+      },
+      {
+        "file": ".bmad-core/checklists/change-checklist.md",
+        "hash": "1380847898936957564"
+      },
+      {
+        "file": ".bmad-core/checklists/pm-checklist.md",
+        "hash": "1549985345972587606"
+      },
+      {
+        "file": ".bmad-core/checklists/po-master-checklist.md",
+        "hash": "10476211924413140908"
+      },
+      {
+        "file": ".bmad-core/checklists/story-dod-checklist.md",
+        "hash": "14028943046937382362"
+      },
+      {
+        "file": ".bmad-core/checklists/story-draft-checklist.md",
+        "hash": "12144706852688901742"
+      },
+      {
+        "file": ".bmad-core/core-config.yaml",
+        "hash": "12285557444725213154"
+      },
+      {
+        "file": ".bmad-core/data/bmad-kb.md",
+        "hash": "8649493414795223322"
+      },
+      {
+        "file": ".bmad-core/data/brainstorming-techniques.md",
+        "hash": "1418534463682102778"
+      },
+      {
+        "file": ".bmad-core/data/elicitation-methods.md",
+        "hash": "7967218422063884418"
+      },
+      {
+        "file": ".bmad-core/data/technical-preferences.md",
+        "hash": "4399453671753393601"
+      },
+      {
+        "file": ".bmad-core/install-manifest.yaml",
+        "hash": "1063594120815348817"
+      },
+      {
+        "file": ".bmad-core/tasks/advanced-elicitation.md",
+        "hash": "14381538087709545384"
+      },
+      {
+        "file": ".bmad-core/tasks/brownfield-create-epic.md",
+        "hash": "17722509943214226637"
+      },
+      {
+        "file": ".bmad-core/tasks/brownfield-create-story.md",
+        "hash": "1023390254117299547"
+      },
+      {
+        "file": ".bmad-core/tasks/correct-course.md",
+        "hash": "9754236614427971019"
+      },
+      {
+        "file": ".bmad-core/tasks/create-brownfield-story.md",
+        "hash": "11096304597293199765"
+      },
+      {
+        "file": ".bmad-core/tasks/create-deep-research-prompt.md",
+        "hash": "8627744351857395480"
+      },
+      {
+        "file": ".bmad-core/tasks/create-doc.md",
+        "hash": "7686790477398912955"
+      },
+      {
+        "file": ".bmad-core/tasks/create-next-story.md",
+        "hash": "17415415344923949224"
+      },
+      {
+        "file": ".bmad-core/tasks/document-project.md",
+        "hash": "1184469250467407875"
+      },
+      {
+        "file": ".bmad-core/tasks/execute-checklist.md",
+        "hash": "3022133633770493768"
+      },
+      {
+        "file": ".bmad-core/tasks/facilitate-brainstorming-session.md",
+        "hash": "15349244019481086555"
+      },
+      {
+        "file": ".bmad-core/tasks/generate-ai-frontend-prompt.md",
+        "hash": "13636681749595012551"
+      },
+      {
+        "file": ".bmad-core/tasks/index-docs.md",
+        "hash": "4662986920490171441"
+      },
+      {
+        "file": ".bmad-core/tasks/kb-mode-interaction.md",
+        "hash": "3300023489076047805"
+      },
+      {
+        "file": ".bmad-core/tasks/review-story.md",
+        "hash": "9767920345971744124"
+      },
+      {
+        "file": ".bmad-core/tasks/shard-doc.md",
+        "hash": "17895803972673435240"
+      },
+      {
+        "file": ".bmad-core/tasks/validate-next-story.md",
+        "hash": "1239719158512239098"
+      },
+      {
+        "file": ".bmad-core/templates/architecture-tmpl.yaml",
+        "hash": "7609309578877895520"
+      },
+      {
+        "file": ".bmad-core/templates/brainstorming-output-tmpl.yaml",
+        "hash": "15233543367592060647"
+      },
+      {
+        "file": ".bmad-core/templates/brownfield-architecture-tmpl.yaml",
+        "hash": "11852336260064208829"
+      },
+      {
+        "file": ".bmad-core/templates/brownfield-prd-tmpl.yaml",
+        "hash": "9110151995379632419"
+      },
+      {
+        "file": ".bmad-core/templates/competitor-analysis-tmpl.yaml",
+        "hash": "8513552675733876430"
+      },
+      {
+        "file": ".bmad-core/templates/front-end-architecture-tmpl.yaml",
+        "hash": "13182601846959734279"
+      },
+      {
+        "file": ".bmad-core/templates/front-end-spec-tmpl.yaml",
+        "hash": "16543596918345836196"
+      },
+      {
+        "file": ".bmad-core/templates/fullstack-architecture-tmpl.yaml",
+        "hash": "12286266308325442154"
+      },
+      {
+        "file": ".bmad-core/templates/market-research-tmpl.yaml",
+        "hash": "16618492839676092662"
+      },
+      {
+        "file": ".bmad-core/templates/prd-tmpl.yaml",
+        "hash": "8798925571830286013"
+      },
+      {
+        "file": ".bmad-core/templates/project-brief-tmpl.yaml",
+        "hash": "2582026165328111275"
+      },
+      {
+        "file": ".bmad-core/templates/story-tmpl.yaml",
+        "hash": "8413674522099233310"
+      },
+      {
+        "file": ".bmad-core/utils/bmad-doc-template.md",
+        "hash": "3664272678650343755"
+      },
+      {
+        "file": ".bmad-core/utils/workflow-management.md",
+        "hash": "8696163925233748733"
+      },
+      {
+        "file": ".bmad-core/workflows/brownfield-fullstack.yaml",
+        "hash": "14221557163753323903"
+      },
+      {
+        "file": ".bmad-core/workflows/brownfield-service.yaml",
+        "hash": "16182688636971099235"
+      },
+      {
+        "file": ".bmad-core/workflows/brownfield-ui.yaml",
+        "hash": "8140322999695297484"
+      },
+      {
+        "file": ".bmad-core/workflows/greenfield-fullstack.yaml",
+        "hash": "16528476786803818644"
+      },
+      {
+        "file": ".bmad-core/workflows/greenfield-service.yaml",
+        "hash": "9213730624194618829"
+      },
+      {
+        "file": ".bmad-core/workflows/greenfield-ui.yaml",
+        "hash": "9427147966909105482"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/README.md",
+        "hash": "3586769463273681447"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/agents/infra-devops-platform.md",
+        "hash": "17414324875003559766"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/checklists/infrastructure-checklist.md",
+        "hash": "4664085019809726726"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/config.yaml",
+        "hash": "1496840784415708790"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/data/bmad-kb.md",
+        "hash": "5715606349971206984"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/data/technical-preferences.md",
+        "hash": "4399453671753393601"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/install-manifest.yaml",
+        "hash": "7774561051509342355"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/tasks/create-doc.md",
+        "hash": "7686790477398912955"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/tasks/execute-checklist.md",
+        "hash": "14902657343159454517"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/tasks/review-infrastructure.md",
+        "hash": "8299105397042876147"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/tasks/validate-infrastructure.md",
+        "hash": "2104559465588191724"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/templates/infrastructure-architecture-tmpl.yaml",
+        "hash": "1633366097143380870"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/templates/infrastructure-platform-from-arch-tmpl.yaml",
+        "hash": "12016402114373951454"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/utils/bmad-doc-template.md",
+        "hash": "3664272678650343755"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/utils/workflow-management.md",
+        "hash": "8696163925233748733"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/analyst.md",
+        "hash": "8715032607799327402"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/architect.md",
+        "hash": "375338272473104295"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/bmad-master.md",
+        "hash": "9081273236492589071"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/bmad-orchestrator.md",
+        "hash": "18028889139857103695"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/dev.md",
+        "hash": "9105056038537979040"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/pm.md",
+        "hash": "5699875965762484159"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/po.md",
+        "hash": "6540187118701877340"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/qa.md",
+        "hash": "11107950643713887964"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/sm.md",
+        "hash": "11371890004494704947"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/ux-expert.md",
+        "hash": "9440434208272849002"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/advanced-elicitation.md",
+        "hash": "1525260203374331988"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/brownfield-create-epic.md",
+        "hash": "451221930992046794"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/brownfield-create-story.md",
+        "hash": "3058108284384572384"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/correct-course.md",
+        "hash": "15965738418392274581"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/create-brownfield-story.md",
+        "hash": "6016708674641864155"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/create-deep-research-prompt.md",
+        "hash": "7781329869557006098"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/create-doc.md",
+        "hash": "10565066948113509139"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/create-next-story.md",
+        "hash": "1541066467095399810"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/document-project.md",
+        "hash": "8689181096304102448"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/execute-checklist.md",
+        "hash": "17730005994428887857"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/facilitate-brainstorming-session.md",
+        "hash": "4572910567525404285"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/generate-ai-frontend-prompt.md",
+        "hash": "814316691535434318"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/index-docs.md",
+        "hash": "12068481371604771009"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/kb-mode-interaction.md",
+        "hash": "16327391722164808869"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/review-story.md",
+        "hash": "4997236185991112108"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/shard-doc.md",
+        "hash": "6869227851641312595"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/validate-next-story.md",
+        "hash": "10659999168531669098"
+      },
+      {
+        "file": ".claude/commands/bmadInfraDevOps/agents/infra-devops-platform.md",
+        "hash": "15020033735506615701"
+      },
+      {
+        "file": ".claude/commands/bmadInfraDevOps/tasks/create-doc.md",
+        "hash": "10565066948113509139"
+      },
+      {
+        "file": ".claude/commands/bmadInfraDevOps/tasks/execute-checklist.md",
+        "hash": "15814181948919188471"
+      },
+      {
+        "file": ".claude/commands/bmadInfraDevOps/tasks/review-infrastructure.md",
+        "hash": "7306756135828317115"
+      },
+      {
+        "file": ".claude/commands/bmadInfraDevOps/tasks/validate-infrastructure.md",
+        "hash": "3280606528179363725"
+      },
+      {
+        "file": ".claude/settings.local.json",
+        "hash": "4456726700729044969"
+      },
+      {
+        "file": ".env.example",
+        "hash": "18042625219714285635"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "10287161936875731009"
+      },
+      {
+        "file": "README.md",
+        "hash": "11357461592490378942"
+      },
+      {
+        "file": "docs/architecture.md",
+        "hash": "18282311477049468456"
+      },
+      {
+        "file": "docs/architecture/checklist-results-report.md",
+        "hash": "5102019971408647854"
+      },
+      {
+        "file": "docs/architecture/coding-standards.md",
+        "hash": "696578717052957987"
+      },
+      {
+        "file": "docs/architecture/components.md",
+        "hash": "6004150336233144500"
+      },
+      {
+        "file": "docs/architecture/core-workflows.md",
+        "hash": "12808194095543238233"
+      },
+      {
+        "file": "docs/architecture/data-models.md",
+        "hash": "4554168366901905585"
+      },
+      {
+        "file": "docs/architecture/database-schema.md",
+        "hash": "8748447108457496654"
+      },
+      {
+        "file": "docs/architecture/deployment-architecture.md",
+        "hash": "18138720131492495885"
+      },
+      {
+        "file": "docs/architecture/development-workflow.md",
+        "hash": "8679639030620229023"
+      },
+      {
+        "file": "docs/architecture/error-handling-strategy.md",
+        "hash": "14390642122566837312"
+      },
+      {
+        "file": "docs/architecture/external-apis.md",
+        "hash": "12487415981982029764"
+      },
+      {
+        "file": "docs/architecture/high-level-architecture.md",
+        "hash": "5455317538155073113"
+      },
+      {
+        "file": "docs/architecture/index.md",
+        "hash": "2314355903152262151"
+      },
+      {
+        "file": "docs/architecture/introduction.md",
+        "hash": "6991989489984428103"
+      },
+      {
+        "file": "docs/architecture/monitoring-and-observability.md",
+        "hash": "15983253921027590830"
+      },
+      {
+        "file": "docs/architecture/next-steps.md",
+        "hash": "2969078045778794091"
+      },
+      {
+        "file": "docs/architecture/security-and-performance.md",
+        "hash": "530517472582797082"
+      },
+      {
+        "file": "docs/architecture/tech-stack.md",
+        "hash": "9957998995836608578"
+      },
+      {
+        "file": "docs/architecture/testing-strategy.md",
+        "hash": "18192140593266409890"
+      },
+      {
+        "file": "docs/architecture/unified-project-structure.md",
+        "hash": "10648053916236576704"
+      },
+      {
+        "file": "docs/prd.md",
+        "hash": "1572335313317119414"
+      },
+      {
+        "file": "docs/prd/checklist-results-report.md",
+        "hash": "5102019971408647854"
+      },
+      {
+        "file": "docs/prd/epic-1-foundation-company-context-establishment.md",
+        "hash": "7199197273535179681"
+      },
+      {
+        "file": "docs/prd/epic-2-writer-profile-social-network-configuration.md",
+        "hash": "14099340541599065547"
+      },
+      {
+        "file": "docs/prd/epic-3-annual-content-planning-blog-post-generation.md",
+        "hash": "1365187376739072134"
+      },
+      {
+        "file": "docs/prd/epic-4-social-media-content-adaptation-generation.md",
+        "hash": "6947010163028148875"
+      },
+      {
+        "file": "docs/prd/epic-5-content-management-collaboration.md",
+        "hash": "2796083688449234455"
+      },
+      {
+        "file": "docs/prd/epic-6-performance-analytics-integration.md",
+        "hash": "12591999432889963960"
+      },
+      {
+        "file": "docs/prd/epic-7-llm-training-ethical-ai-guardrails.md",
+        "hash": "9931487785124521635"
+      },
+      {
+        "file": "docs/prd/epic-8-security-privacy-automation-integration.md",
+        "hash": "2824712186418659332"
+      },
+      {
+        "file": "docs/prd/epic-list.md",
+        "hash": "5209989242489306838"
+      },
+      {
+        "file": "docs/prd/goals-and-background-context.md",
+        "hash": "2422319365926302349"
+      },
+      {
+        "file": "docs/prd/index.md",
+        "hash": "8686140367833398676"
+      },
+      {
+        "file": "docs/prd/next-steps.md",
+        "hash": "18429826922953489646"
+      },
+      {
+        "file": "docs/prd/requirements.md",
+        "hash": "8630596665947415607"
+      },
+      {
+        "file": "docs/prd/technical-assumptions.md",
+        "hash": "15651577216418492689"
+      },
+      {
+        "file": "docs/prd/user-interface-design-goals.md",
+        "hash": "18326528252275158943"
+      },
+      {
+        "file": "docs/stories/1.1.story.md",
+        "hash": "1290553044192875360"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1537094674066997632"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "1586969834567542130"
+      },
+      {
+        "file": "package.json",
+        "hash": "2949465452939643191"
+      },
+      {
+        "file": "packages/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "15605844347891070940"
+      }
+    ],
+    "projectFileMap": {
+      "web": [
+        {
+          "file": "apps/web/.babelrc",
+          "hash": "17460314831431716173"
+        },
+        {
+          "file": "apps/web/project.json",
+          "hash": "18357618974302683189"
+        },
+        {
+          "file": "apps/web/src/app/app.tsx",
+          "hash": "13692706776877403788",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/web/src/assets/.gitkeep",
+          "hash": "17577001130834759348"
+        },
+        {
+          "file": "apps/web/src/components/auth/LoginForm.test.tsx",
+          "hash": "2903764613294259545",
+          "deps": [
+            "npm:react",
+            "npm:@testing-library/react",
+            "npm:react-router-dom",
+            "npm:@testing-library/jest-dom"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/auth/LoginForm.tsx",
+          "hash": "15830438152043773160",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/auth/ProtectedRoute.tsx",
+          "hash": "7020336981791019756",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/auth/RegisterForm.tsx",
+          "hash": "8104577107370152982",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/web/src/favicon.ico",
+          "hash": "772054191603519960"
+        },
+        {
+          "file": "apps/web/src/hooks/useAuth.ts",
+          "hash": "11244866712392990554",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/web/src/index.html",
+          "hash": "2232200212486247476"
+        },
+        {
+          "file": "apps/web/src/main.tsx",
+          "hash": "2096250968175699004"
+        },
+        {
+          "file": "apps/web/src/pages/Dashboard.tsx",
+          "hash": "4703706506737936561",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/web/src/pages/LoginPage.tsx",
+          "hash": "6305160935502669889",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/web/src/pages/RegisterPage.tsx",
+          "hash": "10254826494423057799",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/web/src/services/api.ts",
+          "hash": "7540432311031045939",
+          "deps": [
+            "npm:axios"
+          ]
+        },
+        {
+          "file": "apps/web/src/services/authService.ts",
+          "hash": "1490956265223100013",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/stores/authStore.ts",
+          "hash": "7825086253545025911",
+          "deps": [
+            "npm:zustand",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/styles.css",
+          "hash": "2846041743930310750"
+        },
+        {
+          "file": "apps/web/tsconfig.app.json",
+          "hash": "11765977010274317640"
+        },
+        {
+          "file": "apps/web/tsconfig.json",
+          "hash": "8265221563811810965"
+        },
+        {
+          "file": "apps/web/tsconfig.spec.json",
+          "hash": "17045194599814038345"
+        },
+        {
+          "file": "apps/web/webpack.config.js",
+          "hash": "1581972465063853992"
+        }
+      ],
+      "api": [
+        {
+          "file": "apps/api/project.json",
+          "hash": "1620290854178126"
+        },
+        {
+          "file": "apps/api/src/app/app.controller.ts",
+          "hash": "2757769081109258701"
+        },
+        {
+          "file": "apps/api/src/app/app.module.ts",
+          "hash": "16317407403336022649",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/app.service.ts",
+          "hash": "7453963155228556167"
+        },
+        {
+          "file": "apps/api/src/assets/.gitkeep",
+          "hash": "17577001130834759348"
+        },
+        {
+          "file": "apps/api/src/auth/auth.controller.ts",
+          "hash": "10466490791486555817",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/auth.module.ts",
+          "hash": "6319870006812427103",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:@nestjs/passport",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/auth.service.spec.ts",
+          "hash": "875210720848568489",
+          "deps": [
+            "npm:@nestjs/typeorm",
+            "npm:@nestjs/jwt",
+            "npm:@nestjs/common",
+            "npm:typeorm",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/auth.service.ts",
+          "hash": "10944565339314867837",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "npm:@nestjs/jwt",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/dto/auth.dto.ts",
+          "hash": "6371068262717659197",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/guards/jwt-auth.guard.ts",
+          "hash": "9964501557004574976",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/guards/local-auth.guard.ts",
+          "hash": "8931164904768089314",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/strategies/jwt.strategy.ts",
+          "hash": "4574991711791235309",
+          "deps": [
+            "npm:passport-jwt",
+            "npm:@nestjs/passport",
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/strategies/local.strategy.ts",
+          "hash": "5249045547368356670",
+          "deps": [
+            "npm:passport-local",
+            "npm:@nestjs/passport",
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/database.module.ts",
+          "hash": "6774206868050992110",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/user.entity.ts",
+          "hash": "15428391757329134011",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/migrations/1705123456789-CreateUsersTable.ts",
+          "hash": "17580600275606794661",
+          "deps": [
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "9468052933639916923"
+        },
+        {
+          "file": "apps/api/tsconfig.app.json",
+          "hash": "6385052271996669993"
+        },
+        {
+          "file": "apps/api/tsconfig.json",
+          "hash": "12629745032125880412"
+        },
+        {
+          "file": "apps/api/tsconfig.spec.json",
+          "hash": "7699487533351179848"
+        },
+        {
+          "file": "apps/api/webpack.config.js",
+          "hash": "11488271643950040804"
+        }
+      ],
+      "shared": [
+        {
+          "file": "packages/shared/project.json",
+          "hash": "18272957919889667580"
+        },
+        {
+          "file": "packages/shared/src/constants/index.ts",
+          "hash": "6468536228527808862"
+        },
+        {
+          "file": "packages/shared/src/index.ts",
+          "hash": "10968948671860470669"
+        },
+        {
+          "file": "packages/shared/src/types/auth.types.ts",
+          "hash": "670048276249239847"
+        },
+        {
+          "file": "packages/shared/src/types/index.ts",
+          "hash": "13185683078086775368"
+        },
+        {
+          "file": "packages/shared/src/types/user.types.ts",
+          "hash": "10862217546996435804"
+        },
+        {
+          "file": "packages/shared/src/utils/index.ts",
+          "hash": "8723693140075391690"
+        },
+        {
+          "file": "packages/shared/tsconfig.json",
+          "hash": "4955604424410888574"
+        },
+        {
+          "file": "packages/shared/tsconfig.lib.json",
+          "hash": "16594285640646169466"
+        },
+        {
+          "file": "packages/shared/tsconfig.spec.json",
+          "hash": "7699487533351179848"
+        }
+      ]
+    }
+  }
+}

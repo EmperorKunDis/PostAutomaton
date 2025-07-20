@@ -1,0 +1,19 @@
+
+[0m[7m[1m[31m NX [39m[22m[27m[0m  [31mCannot find module '@pmmmwh/react-refresh-webpack-plugin'[39m
+
+Require stack:
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@nx/react/plugins/nx-react-webpack-plugin/lib/apply-react-config.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@nx/react/plugins/nx-react-webpack-plugin/nx-react-webpack-plugin.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@nx/react/index.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/apps/web/webpack.config.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@nx/webpack/src/utils/webpack/resolve-user-defined-webpack-config.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@nx/webpack/src/executors/dev-server/dev-server.impl.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/nx/src/config/schema-utils.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/nx/src/command-line/run/executor-utils.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/nx/src/project-graph/utils/project-configuration-utils.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/nx/src/utils/package-json.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/nx/src/utils/print-help.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/nx/src/command-line/run/run.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/nx/bin/run-executor.js
+Pass --verbose to see the stacktrace.
+

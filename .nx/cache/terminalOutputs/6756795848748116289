@@ -1,0 +1,6 @@
+Entrypoint [1mmain[39m[22m [1m[33m[big][39m[22m 439 KiB = [1m[32mruntime.5797698c35a1c36e.js[39m[22m 1.36 KiB [1m[32mmain.5be1aa6a9f52593b.js[39m[22m 438 KiB
+Entrypoint [1mstyles[39m[22m 1.75 KiB = [1m[32mruntime.5797698c35a1c36e.js[39m[22m 1.36 KiB [1m[32mstyles.ea30c99cd9c814ee.css[39m[22m 272 bytes [1m[32mstyles.4074f4b105524e46.js[39m[22m 122 bytes
+chunk (runtime: runtime) [1m[32mmain.5be1aa6a9f52593b.js[39m[22m (main) 1.43 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.5797698c35a1c36e.js[39m[22m (runtime) 3.36 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.ea30c99cd9c814ee.css[39m[22m, [1m[32mstyles.4074f4b105524e46.js[39m[22m (styles) 50 bytes (javascript) 360 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a7b0b8af6e41d0ce)

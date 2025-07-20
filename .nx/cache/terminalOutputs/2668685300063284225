@@ -1,0 +1,52 @@
+Entrypoint [1mmain[39m[22m = [1m[32mruntime.37cd9fb24f7b96ab.js[39m[22m [1m[32mmain.9ab24ab9335e569d.js[39m[22m
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.37cd9fb24f7b96ab.js[39m[22m [1m[32mstyles.b57d8955c5c56acd.css[39m[22m [1m[32mstyles.72f539e52eece193.js[39m[22m
+chunk (runtime: runtime) [1m[32mruntime.37cd9fb24f7b96ab.js[39m[22m (runtime) 2.45 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mmain.9ab24ab9335e569d.js[39m[22m (main) 39 bytes [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.b57d8955c5c56acd.css[39m[22m, [1m[32mstyles.72f539e52eece193.js[39m[22m (styles) 50 bytes (javascript) 301 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.tsx[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../../node_modules/@nx/webpack/src/utils/web-babel-loader.js):
+[1m[31mError[39m[22m[1m: Cannot find module '/Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/apps/web/.babelrc'
+Require stack:
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@babel/core/lib/config/files/configuration.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@babel/core/lib/config/files/index.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@babel/core/lib/index.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/babel-loader/lib/index.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@nx/webpack/src/utils/web-babel-loader.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/loader-runner/lib/loadLoader.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/loader-runner/lib/LoaderRunner.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@nx/webpack/node_modules/webpack/lib/NormalModuleFactory.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@nx/webpack/node_modules/webpack/lib/Compiler.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@nx/webpack/node_modules/webpack/lib/webpack.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@nx/webpack/node_modules/webpack/lib/index.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@nx/webpack/src/executors/webpack/lib/run-webpack.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@nx/webpack/src/executors/webpack/webpack.impl.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/nx/src/config/schema-utils.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/nx/src/command-line/run/executor-utils.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/nx/src/project-graph/utils/project-configuration-utils.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/nx/src/utils/package-json.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/nx/src/utils/print-help.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/nx/src/command-line/run/run.js
+- /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/nx/bin/run-executor.js
+    at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at resolve (node:internal/modules/helpers:146:19)
+    at loadConfig (/Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@babel/core/lib/config/files/configuration.js:213:5)
+    at loadConfig.next (<anonymous>)
+    at buildRootChain (/Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@babel/core/lib/config/config-chain.js:64:47)
+    at buildRootChain.next (<anonymous>)
+    at loadPrivatePartialConfig (/Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@babel/core/lib/config/partial.js:72:62)
+    at loadPrivatePartialConfig.next (<anonymous>)
+    at loadPartialConfig (/Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@babel/core/lib/config/partial.js:115:25)
+    at loadPartialConfig.next (<anonymous>)
+    at step (/Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/gensync/index.js:261:32)
+    at evaluateAsync (/Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/gensync/index.js:291:5)
+    at /Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/gensync/index.js:93:9
+    at new Promise (<anonymous>)
+    at async (/Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/gensync/index.js:92:14)
+    at stopHiding - secret - don't use this - v1 (/Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@babel/core/lib/errors/rewrite-stack-trace.js:47:12)
+    at Object.loadPartialConfigAsync (/Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/@babel/core/lib/config/index.js:34:85)
+    at Object.loader (/Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/node_modules/babel-loader/lib/index.js:116:30)[39m[22m
+
+[1m[31mERROR[39m[22m in [1munable to locate '/Users/martinsvanda/Prace/NekovarPraut/PostAutomaton/apps/web/src/assets/**/*' glob[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (c087e526b0329ffb)

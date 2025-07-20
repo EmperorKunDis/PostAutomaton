@@ -1,0 +1,31 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 17.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./apps/api/src/database/migrations/1705123456789-CreateUsersTable.ts:[32m[1m64:7[22m[39m[1m[39m[22m
+[90mTS2350: [39mOnly a void function can be called with the 'new' keyword.
+  [0m [90m 62 |[39m     [36mawait[39m queryRunner[33m.[39mcreateIndex(
+   [90m 63 |[39m       [32m'users'[39m[33m,[39m
+  [31m[1m>[22m[39m[90m 64 |[39m       [36mnew[39m [33mIndex[39m({
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 65 |[39m         name[33m:[39m [32m'IDX_users_email'[39m[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 66 |[39m         columnNames[33m:[39m [[32m'email'[39m][33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+  [31m[1m>[22m[39m[90m 67 |[39m       })[33m,[39m
+   [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 68 |[39m     )[33m;[39m
+   [90m 69 |[39m   }
+   [90m 70 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./apps/api/src/database/migrations/1705123456789-CreateUsersTable.ts:[32m[1m65:9[22m[39m[1m[39m[22m
+[90mTS2769: [39mNo overload matches this call.
+  The last overload gave the following error.
+    Object literal may only specify known properties, and 'name' does not exist in type '(object?: any) => any[] | { [key: string]: number; }'.
+  [0m [90m 63 |[39m       [32m'users'[39m[33m,[39m
+   [90m 64 |[39m       [36mnew[39m [33mIndex[39m({
+  [31m[1m>[22m[39m[90m 65 |[39m         name[33m:[39m [32m'IDX_users_email'[39m[33m,[39m
+   [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 66 |[39m         columnNames[33m:[39m [[32m'email'[39m][33m,[39m
+   [90m 67 |[39m       })[33m,[39m
+   [90m 68 |[39m     )[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (2e1b9c65d18e4187)

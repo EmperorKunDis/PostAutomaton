@@ -1,0 +1,26 @@
+Entrypoint [1mmain[39m[22m = [1m[32mruntime.5797698c35a1c36e.js[39m[22m [1m[32mmain.97a0131f63523bcc.js[39m[22m
+Entrypoint [1mstyles[39m[22m = [1m[32mruntime.5797698c35a1c36e.js[39m[22m [1m[32mstyles.ea30c99cd9c814ee.css[39m[22m [1m[32mstyles.4074f4b105524e46.js[39m[22m
+chunk (runtime: runtime) [1m[32mmain.97a0131f63523bcc.js[39m[22m (main) 1.43 MiB [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mruntime.5797698c35a1c36e.js[39m[22m (runtime) 3.36 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+chunk (runtime: runtime) [1m[32mstyles.ea30c99cd9c814ee.css[39m[22m, [1m[32mstyles.4074f4b105524e46.js[39m[22m (styles) 50 bytes (javascript) 360 bytes (css/mini-extract) [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./apps/web/src/services/api.ts:[32m[1m17:7[22m[39m[1m[39m[22m
+[90mTS18048: [39m'config.headers' is possibly 'undefined'.
+  [0m [90m 15 |[39m     [36mconst[39m token [33m=[39m localStorage[33m.[39mgetItem([32m'access_token'[39m)[33m;[39m
+   [90m 16 |[39m     [36mif[39m (token) {
+  [31m[1m>[22m[39m[90m 17 |[39m       config[33m.[39mheaders[33m.[39m[33mAuthorization[39m [33m=[39m [32m`Bearer ${token}`[39m[33m;[39m
+   [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 18 |[39m     }
+   [90m 19 |[39m     [36mreturn[39m config[33m;[39m
+   [90m 20 |[39m   }[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./apps/web/src/services/authService.ts:[32m[1m2:41[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"@internal-marketing-content-app/shared"' has no exported member 'AuthResponse'.
+  [0m [90m 1 |[39m [36mimport[39m { apiClient } [36mfrom[39m [32m'./api'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mLoginRequest[39m[33m,[39m [33mRegisterRequest[39m[33m,[39m [33mAuthResponse[39m[33m,[39m [33mUser[39m } [36mfrom[39m [32m'@internal-marketing-content-app/shared'[39m[33m;[39m
+   [90m   |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 3 |[39m
+   [90m 4 |[39m [36mexport[39m [36mconst[39m authService [33m=[39m {
+   [90m 5 |[39m   [36masync[39m login(credentials[33m:[39m [33mLoginRequest[39m)[33m:[39m [33mPromise[39m[33m<[39m[33mAuthResponse[39m[33m>[39m {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (b2759a11b263e5cb)
