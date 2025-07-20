@@ -81,6 +81,10 @@ export class UpdateWriterProfileDto {
   @IsBoolean()
   @IsOptional()
   isActive?: boolean;
+
+  @IsBoolean()
+  @IsOptional()
+  isCustom?: boolean;
 }
 
 export class GenerateWriterProfilesDto {
