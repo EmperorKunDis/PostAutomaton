@@ -1,9 +1,21 @@
 {
   "run": {
-    "command": "nx serve web",
-    "startTime": "2025-07-20T04:49:45.056Z",
-    "endTime": "2025-07-20T04:49:45.777Z",
+    "command": "nx build shared",
+    "startTime": "2025-07-20T06:47:09.250Z",
+    "endTime": "2025-07-20T06:47:09.767Z",
     "inner": false
   },
-  "tasks": []
+  "tasks": [
+    {
+      "taskId": "shared:build",
+      "target": "build",
+      "projectName": "shared",
+      "hash": "2465354928861833602",
+      "startTime": "2025-07-20T06:47:09.286Z",
+      "endTime": "2025-07-20T06:47:09.763Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
 }

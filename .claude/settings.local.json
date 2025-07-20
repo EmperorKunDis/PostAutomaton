@@ -10,7 +10,8 @@
       "Bash(curl:*)",
       "Bash(lsof:*)",
       "Bash(git commit:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(gh repo create:*)"
     ],
     "deny": []
   }

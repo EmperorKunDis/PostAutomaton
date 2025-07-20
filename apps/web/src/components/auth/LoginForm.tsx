@@ -14,7 +14,7 @@ export const LoginForm: React.FC = () => {
     
     try {
       await login(email, password);
-      navigate('/dashboard');
+      navigate('/company-selection');
     } catch (err) {
       // Error is handled by the store
     }

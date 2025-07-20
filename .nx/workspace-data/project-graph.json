@@ -12996,6 +12996,11 @@
       },
       {
         "source": "api",
+        "target": "npm:class-transformer",
+        "type": "static"
+      },
+      {
+        "source": "api",
         "target": "shared",
         "type": "static"
       }
@@ -13023,12 +13028,12 @@
       },
       {
         "source": "web",
-        "target": "npm:axios",
+        "target": "shared",
         "type": "static"
       },
       {
         "source": "web",
-        "target": "shared",
+        "target": "npm:axios",
         "type": "static"
       },
       {
@@ -29730,5 +29735,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1752990395827
+  "computedAt": 1752993990588
 }

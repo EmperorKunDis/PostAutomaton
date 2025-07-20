@@ -1,13 +1,14 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { User } from './entities/user.entity';
+import { Company } from './entities/company.entity';
 
 @Module({
   imports: [
     TypeOrmModule.forRoot({
       type: 'sqlite',
       database: process.env.NODE_ENV === 'test' ? ':memory:' : 'data.sqlite',
-      entities: [User],
+      entities: [User, Company],
       synchronize: true, // Auto-sync in development
       logging: process.env.NODE_ENV === 'development',
       // PostgreSQL config (commented for now - use when DB is available)
@@ -20,7 +21,7 @@ import { User } from './entities/user.entity';
       // migrations: ['dist/apps/api/src/database/migrations/*.js'],
       // migrationsRun: true,
     }),
-    TypeOrmModule.forFeature([User]),
+    TypeOrmModule.forFeature([User, Company]),
   ],
   exports: [TypeOrmModule],
 })

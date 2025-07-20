@@ -20,7 +20,7 @@ export const RegisterForm: React.FC = () => {
     
     try {
       await register(email, name, password);
-      navigate('/dashboard');
+      navigate('/company-selection');
     } catch (err) {
       // Error is handled by the store
     }
