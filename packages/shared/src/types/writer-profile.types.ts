@@ -97,3 +97,30 @@ export interface WriterProfileTemplate {
     tipTemplates: string[];
   }[];
 }
+
+export interface UpdateCompanyContextRequest {
+  industryVertical?: string;
+  companySizeIndicator?: CompanySizeIndicator;
+  targetMarket?: TargetMarket;
+  contentThemes?: string[];
+  keyDifferentiators?: string[];
+  competitivePosition?: string;
+  brandPersonality?: string[];
+}
+
+export interface AnalyzeCompanyRequest {
+  companyId: string;
+  forceRegenerate?: boolean;
+}
+
+export interface CreateCompanyContextRequest {
+  companyId: string;
+  industryVertical: string;
+  companySizeIndicator: CompanySizeIndicator;
+  targetMarket: TargetMarket;
+  contentThemes: string[];
+  keyDifferentiators: string[];
+  competitivePosition: string;
+  brandPersonality: string[];
+  generatedInsights?: string[];
+}

@@ -49,12 +49,15 @@ export const WriterProfileForm: React.FC<WriterProfileFormProps> = ({
   };
 
   const handleArrayToggle = (field: string, value: string) => {
-    setFormData(prev => ({
-      ...prev,
-      [field]: prev[field as keyof typeof prev].includes(value)
-        ? (prev[field as keyof typeof prev] as string[]).filter(item => item !== value)
-        : [...(prev[field as keyof typeof prev] as string[]), value]
-    }));
+    setFormData(prev => {
+      const currentValue = prev[field as keyof typeof prev] as string[];
+      return {
+        ...prev,
+        [field]: currentValue.includes(value)
+          ? currentValue.filter(item => item !== value)
+          : [...currentValue, value]
+      };
+    });
   };
 
   const handleAddTip = () => {

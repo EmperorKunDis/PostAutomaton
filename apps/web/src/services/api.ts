@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:3000/api';
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || '/api';
 
 export const apiClient = axios.create({
   baseURL: API_BASE_URL,
@@ -35,3 +35,6 @@ apiClient.interceptors.response.use(
     return Promise.reject(error);
   }
 );
+
+// Export as both apiClient and api for compatibility
+export const api = apiClient;

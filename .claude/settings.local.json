@@ -11,7 +11,23 @@
       "Bash(lsof:*)",
       "Bash(git commit:*)",
       "Bash(git add:*)",
-      "Bash(gh repo create:*)"
+      "Bash(gh repo create:*)",
+      "Bash(npm run dev:api:*)",
+      "Bash(npm run:*)",
+      "Bash(npx nx serve:*)",
+      "Bash(COMPANY_ID=\"cc815be8-5c2a-40ba-9261-5b52e2db1ceb\")",
+      "Bash(__NEW_LINE__ echo -e \"\\n📊 === Story 1.3 Features Demonstration ===\\n\")",
+      "Bash(__NEW_LINE__ echo \"✅ 1. Company Context Created Successfully:\")",
+      "Bash(__NEW_LINE__ echo -e \"\\n🏗️ 2. Database Architecture:\")",
+      "Bash(__NEW_LINE__ echo -e \"\\n🔧 3. API Endpoints Active:\")",
+      "Bash(__NEW_LINE__ echo -e \"\\n💡 4. Business Logic Implemented:\")",
+      "Bash(__NEW_LINE__ echo -e \"\\n📱 5. Features Ready for Frontend:\")",
+      "Bash(cat:*)",
+      "Bash(kill:*)",
+      "Bash(pkill:*)",
+      "Bash(npx nx run:*)",
+      "Bash(npx nx show:*)",
+      "Bash(nx run-many:*)"
     ],
     "deny": []
   }

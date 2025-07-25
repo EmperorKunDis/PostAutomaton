@@ -9,7 +9,7 @@ import {
 export const writerProfileService = {
   // Generate writer profiles for a company
   generateProfiles: async (request: GenerateWriterProfilesRequest): Promise<WriterProfile[]> => {
-    const response = await api.post('/writer-profiles/generate', request);
+    const response = await api.post<WriterProfile[]>('/writer-profiles/generate', request);
     return response.data;
   },
 
@@ -19,31 +19,31 @@ export const writerProfileService = {
     userId?: string;
     activeOnly?: boolean;
   }): Promise<WriterProfile[]> => {
-    const response = await api.get('/writer-profiles', { params });
+    const response = await api.get<WriterProfile[]>('/writer-profiles', { params });
     return response.data;
   },
 
   // Get a specific writer profile
   getProfile: async (id: string): Promise<WriterProfile> => {
-    const response = await api.get(`/writer-profiles/${id}`);
+    const response = await api.get<WriterProfile>(`/writer-profiles/${id}`);
     return response.data;
   },
 
   // Create a new writer profile
   createProfile: async (request: CreateWriterProfileRequest): Promise<WriterProfile> => {
-    const response = await api.post('/writer-profiles', request);
+    const response = await api.post<WriterProfile>('/writer-profiles', request);
     return response.data;
   },
 
   // Update an existing writer profile
   updateProfile: async (id: string, request: UpdateWriterProfileRequest): Promise<WriterProfile> => {
-    const response = await api.put(`/writer-profiles/${id}`, request);
+    const response = await api.put<WriterProfile>(`/writer-profiles/${id}`, request);
     return response.data;
   },
 
   // Update social platforms for a profile
   updateSocialPlatforms: async (id: string, platforms: string[]): Promise<WriterProfile> => {
-    const response = await api.put(`/writer-profiles/${id}/social-platforms`, { socialPlatforms: platforms });
+    const response = await api.put<WriterProfile>(`/writer-profiles/${id}/social-platforms`, { socialPlatforms: platforms });
     return response.data;
   },
 

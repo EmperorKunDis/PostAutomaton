@@ -4095,6 +4095,15 @@
         "hash": "sha512-n6Cr2xS1h4uAulPRdlw6Jl6s1oG8KrVilPN2yUITEs+K48EzMJJ3W1xy8K5eWuFvjp3R74AOIGSmp2UfBJ8HFw=="
       }
     },
+    "npm:@types/diff": {
+      "type": "npm",
+      "name": "npm:@types/diff",
+      "data": {
+        "version": "7.0.2",
+        "packageName": "@types/diff",
+        "hash": "sha512-JSWRMozjFKsGlEjiiKajUjIJVKuKdE3oVy2DNtK+fUo8q82nhFZ2CPQwicAIkXrofahDXrWJ7mjelvZphMS98Q=="
+      }
+    },
     "npm:@types/eslint": {
       "type": "npm",
       "name": "npm:@types/eslint",
@@ -6381,6 +6390,15 @@
         "hash": "sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw=="
       }
     },
+    "npm:date-fns": {
+      "type": "npm",
+      "name": "npm:date-fns",
+      "data": {
+        "version": "4.1.0",
+        "packageName": "date-fns",
+        "hash": "sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg=="
+      }
+    },
     "npm:date-format": {
       "type": "npm",
       "name": "npm:date-format",
@@ -6604,6 +6622,15 @@
         "version": "1.6.1",
         "packageName": "detect-port",
         "hash": "sha512-CmnVc+Hek2egPx1PeTFVta2W78xy2K/9Rkf6cC4T59S50tVnzKj+tnx5mmx5lwvCkujZ4uRrpRSuV+IVs3f90Q=="
+      }
+    },
+    "npm:diff": {
+      "type": "npm",
+      "name": "npm:diff",
+      "data": {
+        "version": "8.0.2",
+        "packageName": "diff",
+        "hash": "sha512-sSuxWU5j5SR9QQji/o2qMvqRNYRDOcBTgsJ/DeCf4iSN4gW+gNMXM7wFIP+fdXZxoNiAnHUTGjCr+TSWXdRDKg=="
       }
     },
     "npm:dir-glob": {

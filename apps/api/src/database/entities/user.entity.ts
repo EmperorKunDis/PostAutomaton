@@ -1,5 +1,6 @@
-import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, Index } from 'typeorm';
-import { User as IUser } from '@internal-marketing-content-app/shared';
+import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, Index, ManyToOne, JoinColumn } from 'typeorm';
+import { User as IUser, UserRole, PermissionAction } from '@internal-marketing-content-app/shared';
+import { Company } from './company.entity';
 
 @Entity('users')
 export class User implements IUser {
@@ -21,7 +22,7 @@ export class User implements IUser {
     length: 50, 
     default: 'Guest' 
   })
-  role: 'Admin' | 'Editor' | 'Reviewer' | 'Guest';
+  role: UserRole;
 
   @Column({ 
     type: 'text', 
@@ -32,6 +33,25 @@ export class User implements IUser {
     }
   })
   platformAccessRights?: Record<string, boolean>;
+
+  @Column({ 
+    type: 'json', 
+    nullable: true 
+  })
+  permissions?: PermissionAction[];
+
+  @Column({ type: 'datetime', nullable: true })
+  lastLoginAt?: Date;
+
+  @Column({ type: 'boolean', default: true })
+  isActive: boolean;
+
+  @Column({ type: 'uuid', nullable: true })
+  companyId?: string;
+
+  @ManyToOne(() => Company, { nullable: true })
+  @JoinColumn({ name: 'companyId' })
+  company?: Company;
 
   @CreateDateColumn()
   createdAt: Date;

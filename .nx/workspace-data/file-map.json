@@ -13,484 +13,76 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".bmad-core/agent-teams/team-fullstack.yaml",
-        "hash": "8152125413092630298"
-      },
-      {
-        "file": ".claude/commands/BMad/tasks/create-doc.md",
-        "hash": "10565066948113509139"
-      },
-      {
-        "file": "docs/prd/next-steps.md",
-        "hash": "18429826922953489646"
-      },
-      {
-        "file": "docs/architecture/testing-strategy.md",
-        "hash": "18192140593266409890"
-      },
-      {
-        "file": ".bmad-core/utils/workflow-management.md",
-        "hash": "8696163925233748733"
-      },
-      {
-        "file": ".claude/settings.local.json",
-        "hash": "2724683972221309454"
-      },
-      {
-        "file": ".bmad-core/agent-teams/team-ide-minimal.yaml",
-        "hash": "4063856261287734032"
-      },
-      {
-        "file": "docs/architecture/unified-project-structure.md",
-        "hash": "10648053916236576704"
-      },
-      {
-        "file": ".bmad-core/agents/analyst.md",
-        "hash": "3848269808282157714"
-      },
-      {
-        "file": ".bmad-infrastructure-devops/install-manifest.yaml",
-        "hash": "7774561051509342355"
-      },
-      {
-        "file": ".bmad-core/tasks/validate-next-story.md",
-        "hash": "1239719158512239098"
-      },
-      {
-        "file": ".bmad-core/templates/brownfield-architecture-tmpl.yaml",
-        "hash": "11852336260064208829"
-      },
-      {
-        "file": ".bmad-core/tasks/create-deep-research-prompt.md",
-        "hash": "8627744351857395480"
-      },
-      {
-        "file": ".bmad-core/workflows/brownfield-ui.yaml",
-        "hash": "8140322999695297484"
-      },
-      {
-        "file": ".claude/commands/BMad/agents/qa.md",
-        "hash": "11107950643713887964"
-      },
-      {
-        "file": ".claude/commands/BMad/agents/dev.md",
-        "hash": "9105056038537979040"
-      },
-      {
-        "file": "docs/stories/1.1.story.md",
-        "hash": "1290553044192875360"
-      },
-      {
-        "file": "docs/architecture/next-steps.md",
-        "hash": "2969078045778794091"
-      },
-      {
-        "file": ".bmad-core/agents/sm.md",
-        "hash": "7846947202556089365"
-      },
-      {
-        "file": "docs/architecture/core-workflows.md",
-        "hash": "12808194095543238233"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "15605844347891070940"
-      },
-      {
-        "file": ".bmad-core/workflows/greenfield-ui.yaml",
-        "hash": "9427147966909105482"
-      },
-      {
-        "file": ".bmad-core/checklists/po-master-checklist.md",
-        "hash": "10476211924413140908"
-      },
-      {
-        "file": "docs/architecture/monitoring-and-observability.md",
-        "hash": "15983253921027590830"
-      },
-      {
-        "file": ".claude/commands/BMad/tasks/brownfield-create-epic.md",
-        "hash": "451221930992046794"
-      },
-      {
-        "file": ".bmad-core/templates/brainstorming-output-tmpl.yaml",
-        "hash": "15233543367592060647"
-      },
-      {
-        "file": "docs/prd/epic-4-social-media-content-adaptation-generation.md",
-        "hash": "6947010163028148875"
-      },
-      {
-        "file": ".bmad-core/tasks/index-docs.md",
-        "hash": "4662986920490171441"
-      },
-      {
-        "file": ".bmad-core/tasks/facilitate-brainstorming-session.md",
-        "hash": "15349244019481086555"
-      },
-      {
-        "file": ".claude/commands/BMad/tasks/advanced-elicitation.md",
-        "hash": "1525260203374331988"
-      },
-      {
-        "file": ".bmad-core/checklists/architect-checklist.md",
-        "hash": "857651173762504260"
-      },
-      {
-        "file": "README.md",
-        "hash": "11357461592490378942"
-      },
-      {
-        "file": ".claude/commands/BMad/agents/bmad-orchestrator.md",
-        "hash": "18028889139857103695"
-      },
-      {
-        "file": ".bmad-core/templates/architecture-tmpl.yaml",
-        "hash": "7609309578877895520"
-      },
-      {
-        "file": ".claude/commands/BMad/agents/pm.md",
-        "hash": "5699875965762484159"
-      },
-      {
-        "file": ".bmad-core/data/elicitation-methods.md",
-        "hash": "7967218422063884418"
-      },
-      {
-        "file": ".claude/commands/bmadInfraDevOps/tasks/validate-infrastructure.md",
-        "hash": "3280606528179363725"
-      },
-      {
-        "file": "docs/prd/requirements.md",
-        "hash": "8630596665947415607"
-      },
-      {
-        "file": ".bmad-core/core-config.yaml",
-        "hash": "12285557444725213154"
-      },
-      {
-        "file": "package.json",
-        "hash": "2949465452939643191"
-      },
-      {
-        "file": "packages/.gitkeep",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "docs/prd/epic-8-security-privacy-automation-integration.md",
-        "hash": "2824712186418659332"
-      },
-      {
-        "file": ".bmad-core/agents/dev.md",
-        "hash": "2120592773078422332"
-      },
-      {
-        "file": ".bmad-infrastructure-devops/agents/infra-devops-platform.md",
-        "hash": "17414324875003559766"
-      },
-      {
-        "file": "docs/prd/epic-7-llm-training-ethical-ai-guardrails.md",
-        "hash": "9931487785124521635"
-      },
-      {
-        "file": ".bmad-core/data/bmad-kb.md",
-        "hash": "8649493414795223322"
-      },
-      {
-        "file": ".bmad-core/checklists/story-draft-checklist.md",
-        "hash": "12144706852688901742"
-      },
-      {
-        "file": ".bmad-infrastructure-devops/tasks/validate-infrastructure.md",
-        "hash": "2104559465588191724"
-      },
-      {
-        "file": ".bmad-core/templates/fullstack-architecture-tmpl.yaml",
-        "hash": "12286266308325442154"
-      },
-      {
         "file": ".bmad-core/checklists/change-checklist.md",
         "hash": "1380847898936957564"
       },
       {
-        "file": ".claude/commands/BMad/tasks/execute-checklist.md",
-        "hash": "17730005994428887857"
-      },
-      {
-        "file": "docs/prd/user-interface-design-goals.md",
-        "hash": "18326528252275158943"
-      },
-      {
-        "file": "docs/architecture/development-workflow.md",
-        "hash": "8679639030620229023"
-      },
-      {
-        "file": "docs/stories/1.2.story.md",
-        "hash": "18445781627474563065"
-      },
-      {
-        "file": ".bmad-core/tasks/correct-course.md",
-        "hash": "9754236614427971019"
-      },
-      {
-        "file": ".claude/commands/BMad/tasks/brownfield-create-story.md",
-        "hash": "3058108284384572384"
-      },
-      {
-        "file": ".bmad-core/utils/bmad-doc-template.md",
-        "hash": "3664272678650343755"
-      },
-      {
-        "file": ".bmad-core/workflows/brownfield-service.yaml",
-        "hash": "16182688636971099235"
-      },
-      {
-        "file": ".bmad-core/tasks/brownfield-create-story.md",
-        "hash": "1023390254117299547"
-      },
-      {
-        "file": ".bmad-core/agents/bmad-master.md",
-        "hash": "200895702145130185"
-      },
-      {
-        "file": ".bmad-core/templates/story-tmpl.yaml",
-        "hash": "8413674522099233310"
-      },
-      {
-        "file": "docs/prd/checklist-results-report.md",
-        "hash": "5102019971408647854"
-      },
-      {
-        "file": ".bmad-core/templates/brownfield-prd-tmpl.yaml",
-        "hash": "9110151995379632419"
-      },
-      {
-        "file": "docs/prd/technical-assumptions.md",
-        "hash": "15651577216418492689"
-      },
-      {
-        "file": ".bmad-core/tasks/create-next-story.md",
-        "hash": "17415415344923949224"
-      },
-      {
-        "file": ".bmad-core/templates/market-research-tmpl.yaml",
-        "hash": "16618492839676092662"
-      },
-      {
-        "file": ".claude/commands/BMad/agents/architect.md",
-        "hash": "375338272473104295"
-      },
-      {
-        "file": ".bmad-infrastructure-devops/tasks/create-doc.md",
-        "hash": "7686790477398912955"
-      },
-      {
-        "file": "docs/architecture/coding-standards.md",
-        "hash": "696578717052957987"
-      },
-      {
-        "file": ".bmad-core/workflows/greenfield-fullstack.yaml",
-        "hash": "16528476786803818644"
-      },
-      {
-        "file": "docs/architecture/checklist-results-report.md",
-        "hash": "5102019971408647854"
-      },
-      {
-        "file": ".bmad-core/tasks/brownfield-create-epic.md",
-        "hash": "17722509943214226637"
-      },
-      {
-        "file": ".bmad-core/agents/qa.md",
-        "hash": "16009406990543149101"
-      },
-      {
-        "file": ".claude/commands/bmadInfraDevOps/tasks/create-doc.md",
-        "hash": "10565066948113509139"
-      },
-      {
-        "file": "docs/architecture/security-and-performance.md",
-        "hash": "530517472582797082"
-      },
-      {
-        "file": "docs/prd/epic-3-annual-content-planning-blog-post-generation.md",
-        "hash": "1365187376739072134"
-      },
-      {
-        "file": ".claude/commands/BMad/tasks/create-brownfield-story.md",
-        "hash": "6016708674641864155"
-      },
-      {
-        "file": ".claude/commands/bmadInfraDevOps/tasks/review-infrastructure.md",
-        "hash": "7306756135828317115"
-      },
-      {
-        "file": ".claude/commands/BMad/agents/ux-expert.md",
-        "hash": "9440434208272849002"
-      },
-      {
-        "file": ".bmad-infrastructure-devops/README.md",
-        "hash": "3586769463273681447"
-      },
-      {
-        "file": ".bmad-infrastructure-devops/tasks/review-infrastructure.md",
-        "hash": "8299105397042876147"
-      },
-      {
-        "file": ".claude/commands/bmadInfraDevOps/agents/infra-devops-platform.md",
-        "hash": "15020033735506615701"
-      },
-      {
-        "file": ".bmad-core/checklists/pm-checklist.md",
-        "hash": "1549985345972587606"
-      },
-      {
-        "file": ".bmad-core/checklists/story-dod-checklist.md",
-        "hash": "14028943046937382362"
-      },
-      {
-        "file": ".claude/commands/BMad/tasks/index-docs.md",
-        "hash": "12068481371604771009"
-      },
-      {
-        "file": ".claude/commands/BMad/tasks/create-deep-research-prompt.md",
-        "hash": "7781329869557006098"
-      },
-      {
-        "file": ".bmad-core/tasks/create-brownfield-story.md",
-        "hash": "11096304597293199765"
-      },
-      {
-        "file": ".bmad-core/templates/front-end-architecture-tmpl.yaml",
-        "hash": "13182601846959734279"
-      },
-      {
-        "file": ".bmad-core/data/technical-preferences.md",
+        "file": ".bmad-infrastructure-devops/data/technical-preferences.md",
         "hash": "4399453671753393601"
       },
       {
-        "file": ".bmad-core/templates/project-brief-tmpl.yaml",
-        "hash": "2582026165328111275"
+        "file": ".gitignore",
+        "hash": "10287161936875731009"
       },
       {
-        "file": "package-lock.json",
-        "hash": "1586969834567542130"
+        "file": ".bmad-core/tasks/shard-doc.md",
+        "hash": "17895803972673435240"
       },
       {
-        "file": ".bmad-core/tasks/create-doc.md",
-        "hash": "7686790477398912955"
-      },
-      {
-        "file": "docs/architecture/database-schema.md",
-        "hash": "8748447108457496654"
-      },
-      {
-        "file": ".bmad-core/templates/competitor-analysis-tmpl.yaml",
-        "hash": "8513552675733876430"
-      },
-      {
-        "file": ".bmad-infrastructure-devops/checklists/infrastructure-checklist.md",
-        "hash": "4664085019809726726"
-      },
-      {
-        "file": ".bmad-core/tasks/generate-ai-frontend-prompt.md",
-        "hash": "13636681749595012551"
-      },
-      {
-        "file": ".claude/commands/BMad/tasks/generate-ai-frontend-prompt.md",
-        "hash": "814316691535434318"
-      },
-      {
-        "file": "docs/prd/epic-6-performance-analytics-integration.md",
-        "hash": "12591999432889963960"
-      },
-      {
-        "file": ".bmad-core/agents/architect.md",
-        "hash": "5006206920125513315"
-      },
-      {
-        "file": ".bmad-core/tasks/kb-mode-interaction.md",
-        "hash": "3300023489076047805"
-      },
-      {
-        "file": "docs/prd/epic-1-foundation-company-context-establishment.md",
-        "hash": "7199197273535179681"
-      },
-      {
-        "file": ".env.example",
-        "hash": "18042625219714285635"
-      },
-      {
-        "file": ".bmad-core/agent-teams/team-no-ui.yaml",
-        "hash": "6289331546812925120"
-      },
-      {
-        "file": ".bmad-core/workflows/greenfield-service.yaml",
-        "hash": "9213730624194618829"
-      },
-      {
-        "file": "docs/architecture/components.md",
-        "hash": "6004150336233144500"
-      },
-      {
-        "file": ".claude/commands/BMad/agents/analyst.md",
-        "hash": "8715032607799327402"
-      },
-      {
-        "file": "docs/prd/epic-list.md",
-        "hash": "5209989242489306838"
-      },
-      {
-        "file": ".bmad-infrastructure-devops/utils/workflow-management.md",
-        "hash": "8696163925233748733"
-      },
-      {
-        "file": ".claude/commands/BMad/tasks/correct-course.md",
-        "hash": "15965738418392274581"
-      },
-      {
-        "file": ".bmad-core/tasks/advanced-elicitation.md",
-        "hash": "14381538087709545384"
+        "file": "docs/architecture/error-handling-strategy.md",
+        "hash": "14390642122566837312"
       },
       {
         "file": ".claude/commands/bmadInfraDevOps/tasks/execute-checklist.md",
         "hash": "15814181948919188471"
       },
       {
-        "file": "docs/prd/index.md",
-        "hash": "8686140367833398676"
+        "file": ".bmad-core/workflows/greenfield-fullstack.yaml",
+        "hash": "16528476786803818644"
       },
       {
-        "file": "docs/architecture/introduction.md",
-        "hash": "6991989489984428103"
+        "file": "docs/prd.md",
+        "hash": "1572335313317119414"
       },
       {
-        "file": ".bmad-core/agents/pm.md",
-        "hash": "12458348857967308397"
+        "file": ".bmad-infrastructure-devops/data/bmad-kb.md",
+        "hash": "5715606349971206984"
       },
       {
-        "file": ".claude/commands/BMad/agents/bmad-master.md",
-        "hash": "9081273236492589071"
+        "file": "docs/architecture.md",
+        "hash": "18282311477049468456"
       },
       {
-        "file": ".claude/commands/BMad/tasks/kb-mode-interaction.md",
-        "hash": "16327391722164808869"
+        "file": ".bmad-infrastructure-devops/agents/infra-devops-platform.md",
+        "hash": "17414324875003559766"
       },
       {
-        "file": "docs/prd/epic-2-writer-profile-social-network-configuration.md",
-        "hash": "14099340541599065547"
+        "file": ".bmad-core/workflows/greenfield-ui.yaml",
+        "hash": "9427147966909105482"
       },
       {
-        "file": ".bmad-infrastructure-devops/templates/infrastructure-architecture-tmpl.yaml",
-        "hash": "1633366097143380870"
+        "file": "docs/architecture/checklist-results-report.md",
+        "hash": "5102019971408647854"
       },
       {
-        "file": ".bmad-core/agents/bmad-orchestrator.md",
-        "hash": "1739450662695201008"
+        "file": ".claude/commands/BMad/agents/po.md",
+        "hash": "6540187118701877340"
       },
       {
-        "file": "docs/architecture/external-apis.md",
-        "hash": "12487415981982029764"
+        "file": ".claude/commands/BMad/tasks/validate-next-story.md",
+        "hash": "10659999168531669098"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/tasks/execute-checklist.md",
+        "hash": "14902657343159454517"
+      },
+      {
+        "file": ".bmad-core/templates/competitor-analysis-tmpl.yaml",
+        "hash": "8513552675733876430"
+      },
+      {
+        "file": ".bmad-core/templates/front-end-spec-tmpl.yaml",
+        "hash": "16543596918345836196"
       },
       {
         "file": "docs/architecture/high-level-architecture.md",
@@ -501,151 +93,1519 @@
         "hash": "1063594120815348817"
       },
       {
-        "file": "docs/prd/goals-and-background-context.md",
-        "hash": "2422319365926302349"
-      },
-      {
-        "file": "docs/architecture/data-models.md",
-        "hash": "4554168366901905585"
-      },
-      {
-        "file": "docs/architecture/error-handling-strategy.md",
-        "hash": "14390642122566837312"
-      },
-      {
-        "file": ".bmad-core/tasks/execute-checklist.md",
-        "hash": "3022133633770493768"
-      },
-      {
-        "file": "docs/architecture/tech-stack.md",
-        "hash": "9957998995836608578"
-      },
-      {
-        "file": ".bmad-core/agents/ux-expert.md",
-        "hash": "908521894716604638"
-      },
-      {
-        "file": ".claude/commands/BMad/tasks/review-story.md",
-        "hash": "4997236185991112108"
-      },
-      {
-        "file": ".claude/commands/BMad/tasks/create-next-story.md",
-        "hash": "1541066467095399810"
-      },
-      {
-        "file": ".bmad-infrastructure-devops/data/bmad-kb.md",
-        "hash": "5715606349971206984"
-      },
-      {
-        "file": ".claude/commands/BMad/agents/po.md",
-        "hash": "6540187118701877340"
-      },
-      {
-        "file": ".bmad-core/agents/po.md",
-        "hash": "4706679240143337718"
-      },
-      {
-        "file": ".bmad-infrastructure-devops/data/technical-preferences.md",
-        "hash": "4399453671753393601"
-      },
-      {
-        "file": ".bmad-core/templates/front-end-spec-tmpl.yaml",
-        "hash": "16543596918345836196"
-      },
-      {
-        "file": ".bmad-core/tasks/review-story.md",
-        "hash": "9767920345971744124"
-      },
-      {
-        "file": ".bmad-core/tasks/shard-doc.md",
-        "hash": "17895803972673435240"
-      },
-      {
-        "file": ".bmad-core/workflows/brownfield-fullstack.yaml",
-        "hash": "14221557163753323903"
-      },
-      {
-        "file": ".bmad-core/data/brainstorming-techniques.md",
-        "hash": "1418534463682102778"
-      },
-      {
-        "file": ".bmad-infrastructure-devops/config.yaml",
-        "hash": "1496840784415708790"
-      },
-      {
-        "file": ".bmad-core/tasks/document-project.md",
-        "hash": "1184469250467407875"
-      },
-      {
-        "file": ".bmad-infrastructure-devops/tasks/execute-checklist.md",
-        "hash": "14902657343159454517"
-      },
-      {
-        "file": "docs/architecture/index.md",
-        "hash": "2314355903152262151"
-      },
-      {
-        "file": ".claude/commands/BMad/tasks/facilitate-brainstorming-session.md",
-        "hash": "4572910567525404285"
-      },
-      {
-        "file": "nx.json",
-        "hash": "1537094674066997632"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "10287161936875731009"
-      },
-      {
-        "file": ".claude/commands/BMad/tasks/validate-next-story.md",
-        "hash": "10659999168531669098"
+        "file": ".bmad-core/templates/project-brief-tmpl.yaml",
+        "hash": "2582026165328111275"
       },
       {
         "file": ".bmad-core/agent-teams/team-all.yaml",
         "hash": "4537473644805309810"
       },
       {
-        "file": ".bmad-infrastructure-devops/templates/infrastructure-platform-from-arch-tmpl.yaml",
-        "hash": "12016402114373951454"
+        "file": ".claude/commands/bmadInfraDevOps/tasks/review-infrastructure.md",
+        "hash": "7306756135828317115"
       },
       {
-        "file": "docs/prd/epic-5-content-management-collaboration.md",
-        "hash": "2796083688449234455"
+        "file": "docs/prd/index.md",
+        "hash": "8686140367833398676"
       },
       {
-        "file": ".claude/commands/BMad/tasks/document-project.md",
-        "hash": "8689181096304102448"
-      },
-      {
-        "file": "docs/architecture.md",
-        "hash": "18282311477049468456"
-      },
-      {
-        "file": ".bmad-core/templates/prd-tmpl.yaml",
-        "hash": "8798925571830286013"
+        "file": "docs/architecture/index.md",
+        "hash": "2314355903152262151"
       },
       {
         "file": "docs/architecture/deployment-architecture.md",
         "hash": "18138720131492495885"
       },
       {
+        "file": ".claude/commands/BMad/agents/bmad-orchestrator.md",
+        "hash": "18028889139857103695"
+      },
+      {
+        "file": ".bmad-core/data/elicitation-methods.md",
+        "hash": "7967218422063884418"
+      },
+      {
+        "file": "docs/prd/user-interface-design-goals.md",
+        "hash": "18326528252275158943"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/kb-mode-interaction.md",
+        "hash": "16327391722164808869"
+      },
+      {
+        "file": ".bmad-core/agents/sm.md",
+        "hash": "7846947202556089365"
+      },
+      {
+        "file": ".bmad-core/tasks/create-brownfield-story.md",
+        "hash": "11096304597293199765"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/index-docs.md",
+        "hash": "12068481371604771009"
+      },
+      {
+        "file": "docs/prd/epic-8-security-privacy-automation-integration.md",
+        "hash": "2824712186418659332"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/architect.md",
+        "hash": "375338272473104295"
+      },
+      {
+        "file": ".bmad-core/agents/ux-expert.md",
+        "hash": "908521894716604638"
+      },
+      {
+        "file": "docs/architecture/components.md",
+        "hash": "6004150336233144500"
+      },
+      {
         "file": ".claude/commands/BMad/agents/sm.md",
         "hash": "11371890004494704947"
       },
       {
-        "file": ".claude/commands/BMad/tasks/shard-doc.md",
-        "hash": "6869227851641312595"
+        "file": ".claude/commands/BMad/agents/qa.md",
+        "hash": "11107950643713887964"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/create-deep-research-prompt.md",
+        "hash": "7781329869557006098"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/dev.md",
+        "hash": "9105056038537979040"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/brownfield-create-story.md",
+        "hash": "3058108284384572384"
+      },
+      {
+        "file": ".bmad-core/tasks/create-next-story.md",
+        "hash": "17415415344923949224"
+      },
+      {
+        "file": ".bmad-core/tasks/execute-checklist.md",
+        "hash": "3022133633770493768"
+      },
+      {
+        "file": "docs/prd/next-steps.md",
+        "hash": "18429826922953489646"
+      },
+      {
+        "file": ".bmad-core/checklists/architect-checklist.md",
+        "hash": "857651173762504260"
+      },
+      {
+        "file": "docs/stories/1.3.story.md",
+        "hash": "11545749321422193103"
       },
       {
         "file": ".bmad-infrastructure-devops/utils/bmad-doc-template.md",
         "hash": "3664272678650343755"
       },
       {
-        "file": "docs/prd.md",
-        "hash": "1572335313317119414"
+        "file": ".claude/commands/BMad/tasks/create-doc.md",
+        "hash": "10565066948113509139"
+      },
+      {
+        "file": "docs/prd/technical-assumptions.md",
+        "hash": "15651577216418492689"
+      },
+      {
+        "file": ".bmad-core/agent-teams/team-ide-minimal.yaml",
+        "hash": "4063856261287734032"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "11714290422850490679"
+      },
+      {
+        "file": ".bmad-core/templates/fullstack-architecture-tmpl.yaml",
+        "hash": "12286266308325442154"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/create-next-story.md",
+        "hash": "1541066467095399810"
+      },
+      {
+        "file": ".bmad-core/tasks/correct-course.md",
+        "hash": "9754236614427971019"
+      },
+      {
+        "file": ".bmad-core/templates/prd-tmpl.yaml",
+        "hash": "8798925571830286013"
+      },
+      {
+        "file": ".claude/commands/bmadInfraDevOps/agents/infra-devops-platform.md",
+        "hash": "15020033735506615701"
+      },
+      {
+        "file": ".bmad-core/tasks/kb-mode-interaction.md",
+        "hash": "3300023489076047805"
+      },
+      {
+        "file": ".bmad-core/agent-teams/team-no-ui.yaml",
+        "hash": "6289331546812925120"
+      },
+      {
+        "file": ".bmad-core/agents/bmad-orchestrator.md",
+        "hash": "1739450662695201008"
+      },
+      {
+        "file": ".bmad-core/tasks/generate-ai-frontend-prompt.md",
+        "hash": "13636681749595012551"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/generate-ai-frontend-prompt.md",
+        "hash": "814316691535434318"
+      },
+      {
+        "file": ".bmad-core/agents/po.md",
+        "hash": "4706679240143337718"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/execute-checklist.md",
+        "hash": "17730005994428887857"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/ux-expert.md",
+        "hash": "9440434208272849002"
+      },
+      {
+        "file": ".bmad-core/tasks/brownfield-create-story.md",
+        "hash": "1023390254117299547"
+      },
+      {
+        "file": ".bmad-core/templates/market-research-tmpl.yaml",
+        "hash": "16618492839676092662"
+      },
+      {
+        "file": "docs/architecture/external-apis.md",
+        "hash": "12487415981982029764"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/checklists/infrastructure-checklist.md",
+        "hash": "4664085019809726726"
+      },
+      {
+        "file": ".bmad-core/data/technical-preferences.md",
+        "hash": "4399453671753393601"
+      },
+      {
+        "file": ".bmad-core/tasks/facilitate-brainstorming-session.md",
+        "hash": "15349244019481086555"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/install-manifest.yaml",
+        "hash": "7774561051509342355"
+      },
+      {
+        "file": "docs/architecture/introduction.md",
+        "hash": "6991989489984428103"
+      },
+      {
+        "file": "docs/architecture/next-steps.md",
+        "hash": "2969078045778794091"
+      },
+      {
+        "file": "docs/prd/epic-list.md",
+        "hash": "5209989242489306838"
+      },
+      {
+        "file": ".claude/commands/bmadInfraDevOps/tasks/validate-infrastructure.md",
+        "hash": "3280606528179363725"
+      },
+      {
+        "file": ".bmad-core/utils/bmad-doc-template.md",
+        "hash": "3664272678650343755"
+      },
+      {
+        "file": ".claude/settings.local.json",
+        "hash": "6911175540605062798"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/review-story.md",
+        "hash": "4997236185991112108"
+      },
+      {
+        "file": "docs/architecture/core-workflows.md",
+        "hash": "12808194095543238233"
+      },
+      {
+        "file": "docs/prd/epic-3-annual-content-planning-blog-post-generation.md",
+        "hash": "1365187376739072134"
+      },
+      {
+        "file": "README.md",
+        "hash": "11357461592490378942"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/tasks/validate-infrastructure.md",
+        "hash": "2104559465588191724"
+      },
+      {
+        "file": ".bmad-core/templates/brownfield-prd-tmpl.yaml",
+        "hash": "9110151995379632419"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/templates/infrastructure-architecture-tmpl.yaml",
+        "hash": "1633366097143380870"
+      },
+      {
+        "file": ".bmad-core/tasks/index-docs.md",
+        "hash": "4662986920490171441"
+      },
+      {
+        "file": "docs/prd/requirements.md",
+        "hash": "8630596665947415607"
+      },
+      {
+        "file": ".bmad-core/agents/bmad-master.md",
+        "hash": "200895702145130185"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/shard-doc.md",
+        "hash": "6869227851641312595"
+      },
+      {
+        "file": "docs/prd/epic-4-social-media-content-adaptation-generation.md",
+        "hash": "6947010163028148875"
+      },
+      {
+        "file": ".bmad-core/core-config.yaml",
+        "hash": "12285557444725213154"
+      },
+      {
+        "file": "docs/architecture/coding-standards.md",
+        "hash": "696578717052957987"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/config.yaml",
+        "hash": "1496840784415708790"
+      },
+      {
+        "file": ".bmad-core/checklists/story-dod-checklist.md",
+        "hash": "14028943046937382362"
+      },
+      {
+        "file": "packages/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/templates/infrastructure-platform-from-arch-tmpl.yaml",
+        "hash": "12016402114373951454"
+      },
+      {
+        "file": ".claude/commands/bmadInfraDevOps/tasks/create-doc.md",
+        "hash": "10565066948113509139"
+      },
+      {
+        "file": "docs/architecture/tech-stack.md",
+        "hash": "9957998995836608578"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/tasks/review-infrastructure.md",
+        "hash": "8299105397042876147"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/pm.md",
+        "hash": "5699875965762484159"
+      },
+      {
+        "file": ".bmad-core/templates/front-end-architecture-tmpl.yaml",
+        "hash": "13182601846959734279"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/analyst.md",
+        "hash": "8715032607799327402"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/README.md",
+        "hash": "3586769463273681447"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/facilitate-brainstorming-session.md",
+        "hash": "4572910567525404285"
+      },
+      {
+        "file": ".bmad-core/checklists/story-draft-checklist.md",
+        "hash": "12144706852688901742"
+      },
+      {
+        "file": ".bmad-core/templates/brownfield-architecture-tmpl.yaml",
+        "hash": "11852336260064208829"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/correct-course.md",
+        "hash": "15965738418392274581"
+      },
+      {
+        "file": ".bmad-core/tasks/create-deep-research-prompt.md",
+        "hash": "8627744351857395480"
+      },
+      {
+        "file": ".bmad-core/data/brainstorming-techniques.md",
+        "hash": "1418534463682102778"
+      },
+      {
+        "file": "docs/prd/epic-2-writer-profile-social-network-configuration.md",
+        "hash": "14099340541599065547"
+      },
+      {
+        "file": ".bmad-core/workflows/greenfield-service.yaml",
+        "hash": "9213730624194618829"
+      },
+      {
+        "file": ".bmad-core/checklists/po-master-checklist.md",
+        "hash": "10476211924413140908"
+      },
+      {
+        "file": "docs/architecture/database-schema.md",
+        "hash": "8748447108457496654"
+      },
+      {
+        "file": ".bmad-core/workflows/brownfield-service.yaml",
+        "hash": "16182688636971099235"
+      },
+      {
+        "file": "docs/architecture/monitoring-and-observability.md",
+        "hash": "15983253921027590830"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/create-brownfield-story.md",
+        "hash": "6016708674641864155"
+      },
+      {
+        "file": "docs/prd/epic-6-performance-analytics-integration.md",
+        "hash": "12591999432889963960"
+      },
+      {
+        "file": "docs/prd/epic-5-content-management-collaboration.md",
+        "hash": "2796083688449234455"
+      },
+      {
+        "file": ".bmad-core/data/bmad-kb.md",
+        "hash": "8649493414795223322"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/tasks/create-doc.md",
+        "hash": "7686790477398912955"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "15605844347891070940"
+      },
+      {
+        "file": ".bmad-core/agents/qa.md",
+        "hash": "16009406990543149101"
+      },
+      {
+        "file": ".bmad-core/templates/story-tmpl.yaml",
+        "hash": "8413674522099233310"
+      },
+      {
+        "file": ".bmad-core/workflows/brownfield-fullstack.yaml",
+        "hash": "14221557163753323903"
+      },
+      {
+        "file": ".bmad-core/tasks/brownfield-create-epic.md",
+        "hash": "17722509943214226637"
+      },
+      {
+        "file": ".bmad-core/utils/workflow-management.md",
+        "hash": "8696163925233748733"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/advanced-elicitation.md",
+        "hash": "1525260203374331988"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/document-project.md",
+        "hash": "8689181096304102448"
+      },
+      {
+        "file": "docs/prd/goals-and-background-context.md",
+        "hash": "2422319365926302349"
+      },
+      {
+        "file": ".bmad-core/checklists/pm-checklist.md",
+        "hash": "1549985345972587606"
+      },
+      {
+        "file": "docs/stories/1.2.story.md",
+        "hash": "18445781627474563065"
+      },
+      {
+        "file": ".claude/commands/BMad/tasks/brownfield-create-epic.md",
+        "hash": "451221930992046794"
+      },
+      {
+        "file": ".bmad-core/tasks/advanced-elicitation.md",
+        "hash": "14381538087709545384"
+      },
+      {
+        "file": ".bmad-core/tasks/validate-next-story.md",
+        "hash": "1239719158512239098"
+      },
+      {
+        "file": "docs/prd/checklist-results-report.md",
+        "hash": "5102019971408647854"
+      },
+      {
+        "file": "docs/stories/1.1.story.md",
+        "hash": "1290553044192875360"
+      },
+      {
+        "file": "docs/architecture/development-workflow.md",
+        "hash": "8679639030620229023"
+      },
+      {
+        "file": "docs/architecture/security-and-performance.md",
+        "hash": "530517472582797082"
+      },
+      {
+        "file": ".bmad-core/agents/analyst.md",
+        "hash": "3848269808282157714"
+      },
+      {
+        "file": ".bmad-core/tasks/create-doc.md",
+        "hash": "7686790477398912955"
+      },
+      {
+        "file": "package.json",
+        "hash": "928556217737650031"
+      },
+      {
+        "file": ".bmad-core/templates/brainstorming-output-tmpl.yaml",
+        "hash": "15233543367592060647"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1537094674066997632"
+      },
+      {
+        "file": "docs/architecture/data-models.md",
+        "hash": "4554168366901905585"
+      },
+      {
+        "file": ".claude/commands/BMad/agents/bmad-master.md",
+        "hash": "9081273236492589071"
+      },
+      {
+        "file": ".bmad-core/agents/architect.md",
+        "hash": "5006206920125513315"
+      },
+      {
+        "file": ".env.example",
+        "hash": "18042625219714285635"
+      },
+      {
+        "file": ".bmad-core/workflows/brownfield-ui.yaml",
+        "hash": "8140322999695297484"
+      },
+      {
+        "file": "docs/prd/epic-1-foundation-company-context-establishment.md",
+        "hash": "7199197273535179681"
+      },
+      {
+        "file": ".bmad-infrastructure-devops/utils/workflow-management.md",
+        "hash": "8696163925233748733"
+      },
+      {
+        "file": ".bmad-core/agents/dev.md",
+        "hash": "2120592773078422332"
+      },
+      {
+        "file": "docs/architecture/testing-strategy.md",
+        "hash": "18192140593266409890"
+      },
+      {
+        "file": "docs/prd/epic-7-llm-training-ethical-ai-guardrails.md",
+        "hash": "9931487785124521635"
+      },
+      {
+        "file": ".bmad-core/tasks/document-project.md",
+        "hash": "1184469250467407875"
+      },
+      {
+        "file": ".bmad-core/agents/pm.md",
+        "hash": "12458348857967308397"
+      },
+      {
+        "file": "docs/architecture/unified-project-structure.md",
+        "hash": "10648053916236576704"
+      },
+      {
+        "file": ".bmad-core/tasks/review-story.md",
+        "hash": "9767920345971744124"
+      },
+      {
+        "file": ".bmad-core/agent-teams/team-fullstack.yaml",
+        "hash": "8152125413092630298"
+      },
+      {
+        "file": ".bmad-core/templates/architecture-tmpl.yaml",
+        "hash": "7609309578877895520"
       }
     ],
     "projectFileMap": {
+      "api": [
+        {
+          "file": "apps/api/project.json",
+          "hash": "1620290854178126"
+        },
+        {
+          "file": "apps/api/src/ai/ai.module.ts",
+          "hash": "5475251043892455011",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/ai/controllers/ai.controller.ts",
+          "hash": "2184563679633096073",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/ai/services/ai-model.service.ts",
+          "hash": "15518321627537039011",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/ai/services/content-optimization.service.ts",
+          "hash": "11575162136548179763",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/ai/services/training-pipeline.service.ts",
+          "hash": "17103697916709226933",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/analytics/analytics.module.ts",
+          "hash": "5538389215030134336",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/analytics/controllers/analytics.controller.ts",
+          "hash": "689067421709672047",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/analytics/services/ab-test.service.ts",
+          "hash": "13985104231075095517",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/analytics/services/automated-report.service.ts",
+          "hash": "8389118991314186815",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/analytics/services/content-metrics.service.ts",
+          "hash": "10018237092164823372",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/analytics/services/platform-integration.service.ts",
+          "hash": "4247698907180757365",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/app.controller.ts",
+          "hash": "2757769081109258701"
+        },
+        {
+          "file": "apps/api/src/app/app.module.ts",
+          "hash": "85669847291631619",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/app/app.service.ts",
+          "hash": "7453963155228556167"
+        },
+        {
+          "file": "apps/api/src/approval-workflows/approval-workflows.controller.ts",
+          "hash": "540777030069799069",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/approval-workflows/approval-workflows.module.ts",
+          "hash": "11565228523982965187",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/approval-workflows/approval-workflows.service.ts",
+          "hash": "16804644489135045680",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/assets/.gitkeep",
+          "hash": "17577001130834759348"
+        },
+        {
+          "file": "apps/api/src/auth/auth.controller.ts",
+          "hash": "10466490791486555817",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/auth.module.ts",
+          "hash": "6319870006812427103",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/jwt",
+            "npm:@nestjs/passport",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/auth.service.spec.ts",
+          "hash": "875210720848568489",
+          "deps": [
+            "npm:@nestjs/typeorm",
+            "npm:@nestjs/jwt",
+            "npm:@nestjs/common",
+            "npm:typeorm",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/auth.service.ts",
+          "hash": "16047711629394586099",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "npm:@nestjs/jwt",
+            "npm:bcryptjs"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/dto/auth.dto.ts",
+          "hash": "14126294176557698282",
+          "deps": [
+            "npm:class-validator"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/guards/jwt-auth.guard.ts",
+          "hash": "9964501557004574976",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/guards/local-auth.guard.ts",
+          "hash": "8931164904768089314",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/passport"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/strategies/jwt.strategy.ts",
+          "hash": "4574991711791235309",
+          "deps": [
+            "npm:passport-jwt",
+            "npm:@nestjs/passport",
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/auth/strategies/local.strategy.ts",
+          "hash": "5249045547368356670",
+          "deps": [
+            "npm:passport-local",
+            "npm:@nestjs/passport",
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/blog-posts/blog-posts.controller.ts",
+          "hash": "3613119005552112753",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/blog-posts/blog-posts.module.ts",
+          "hash": "3264295008512322075",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/blog-posts/blog-posts.service.ts",
+          "hash": "9049181178307219523",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/blog-posts/dto/blog-posts.dto.ts",
+          "hash": "53882028188501625",
+          "deps": [
+            "npm:class-validator",
+            "npm:class-transformer",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/comments/comments.controller.ts",
+          "hash": "11319062758097486312",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/comments/comments.module.ts",
+          "hash": "16424842440676045547",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/comments/comments.service.ts",
+          "hash": "7254668181749463081",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/companies/companies.controller.ts",
+          "hash": "11760979460253472498",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/companies/companies.module.ts",
+          "hash": "3897054901145628854",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/companies/companies.service.ts",
+          "hash": "13266133302604459561",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/companies/dto/company.dto.ts",
+          "hash": "16434899477230952364",
+          "deps": [
+            "npm:class-validator",
+            "npm:class-transformer"
+          ]
+        },
+        {
+          "file": "apps/api/src/company-context/company-context.controller.ts",
+          "hash": "13565868285442887039",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/company-context/company-context.module.ts",
+          "hash": "14751315285697243910",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/company-context/company-context.service.ts",
+          "hash": "3450809988057611972",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/company-context/dto/company-context.dto.ts",
+          "hash": "6068209061489575742",
+          "deps": [
+            "npm:class-validator",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/content-library/content-library.controller.ts",
+          "hash": "15084458719331293135",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/content-library/content-library.module.ts",
+          "hash": "158593348209453015",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/content-library/content-library.service.ts",
+          "hash": "5038315666129230001",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/content-topics/content-topics.controller.ts",
+          "hash": "7736578387563367498",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/content-topics/content-topics.module.ts",
+          "hash": "12942493598857055659",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/content-topics/content-topics.service.ts",
+          "hash": "18020891424451420384",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/content-topics/dto/content-topics.dto.ts",
+          "hash": "14564518842320660319",
+          "deps": [
+            "npm:class-validator",
+            "npm:class-transformer",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/database.module.ts",
+          "hash": "397183851185961123",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/ab-test-variant.entity.ts",
+          "hash": "1099893058106187800",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/ab-test.entity.ts",
+          "hash": "4043600913043704781",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/approval-decision.entity.ts",
+          "hash": "17389273351432838460",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/approval-rule.entity.ts",
+          "hash": "9812883603618869181",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/approval-step.entity.ts",
+          "hash": "1487991587464274852",
+          "deps": [
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/approval-template.entity.ts",
+          "hash": "8220619890321289961",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/approval-workflow.entity.ts",
+          "hash": "16858508159606488229",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/asset-usage.entity.ts",
+          "hash": "194489396023796910",
+          "deps": [
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/automated-report.entity.ts",
+          "hash": "383513134697346066",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/blog-post-section.entity.ts",
+          "hash": "16457706595498674844",
+          "deps": [
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/blog-post.entity.ts",
+          "hash": "18367754201285360474",
+          "deps": [
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/comment.entity.ts",
+          "hash": "16180877244883273971",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/company-context.entity.ts",
+          "hash": "10908086653331734564",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/company.entity.ts",
+          "hash": "3424982730702028242",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/content-asset.entity.ts",
+          "hash": "10234192349115999011",
+          "deps": [
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/content-metric.entity.ts",
+          "hash": "1719570257841206015",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/content-plan.entity.ts",
+          "hash": "8726844681569632919",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/content-revision.entity.ts",
+          "hash": "14144388830782456728",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/content-tag.entity.ts",
+          "hash": "4752255249729741730",
+          "deps": [
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/content-topic.entity.ts",
+          "hash": "17326232830008614888",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/content-version.entity.ts",
+          "hash": "3188199450025435797",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/conversion-event.entity.ts",
+          "hash": "17732497313225429700",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/conversion-tracking.entity.ts",
+          "hash": "8577046726420447811",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/dashboard-widget.entity.ts",
+          "hash": "7792361213700085316",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/engagement-dashboard.entity.ts",
+          "hash": "9287589342231977056",
+          "deps": [
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/media-asset.entity.ts",
+          "hash": "5597424040058735454",
+          "deps": [
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/notification.entity.ts",
+          "hash": "18187304928547429709",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/platform-integration.entity.ts",
+          "hash": "6924941755948086211",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/report-execution.entity.ts",
+          "hash": "1265837822128178546",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/reusable-snippet.entity.ts",
+          "hash": "9970844220686752783",
+          "deps": [
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/social-media-content-plan.entity.ts",
+          "hash": "14427543096909048426",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/social-media-post.entity.ts",
+          "hash": "14496591289373383290",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/user.entity.ts",
+          "hash": "13611621833091056629",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/entities/writer-profile.entity.ts",
+          "hash": "13144163197642537662",
+          "deps": [
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/database/migrations/1705123456789-CreateUsersTable.ts",
+          "hash": "17580600275606794661",
+          "deps": [
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/main.ts",
+          "hash": "9468052933639916923"
+        },
+        {
+          "file": "apps/api/src/rbac/decorators/require-permission.decorator.ts",
+          "hash": "4422714635480461853",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/rbac/guards/permission.guard.ts",
+          "hash": "10367932666263815900",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "apps/api/src/rbac/rbac.controller.ts",
+          "hash": "13201526453513410555",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/rbac/rbac.module.ts",
+          "hash": "8588010392989387610",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/rbac/rbac.service.ts",
+          "hash": "10805524772756246159",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/security/controllers/security.controller.ts",
+          "hash": "12245094194455674097",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/security/security.module.ts",
+          "hash": "3760287387283583272",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/security/services/compliance.service.ts",
+          "hash": "3071297489315317955",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/security/services/content-moderation.service.ts",
+          "hash": "8372342182776509602",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/security/services/security-monitoring.service.ts",
+          "hash": "4648040762328053203",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/social-media/export.service.ts",
+          "hash": "15764385449139462118",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/social-media/social-media.controller.ts",
+          "hash": "4220554927933516612",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:express",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/social-media/social-media.module.ts",
+          "hash": "1203413519577927110",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/social-media/social-media.service.ts",
+          "hash": "8399798118341966088",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/version-control/version-control.controller.ts",
+          "hash": "3233781208760893389",
+          "deps": [
+            "npm:@nestjs/common",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/version-control/version-control.module.ts",
+          "hash": "3506667698946601388",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/version-control/version-control.service.ts",
+          "hash": "7643824883039518780",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared",
+            "npm:diff"
+          ]
+        },
+        {
+          "file": "apps/api/src/writer-profiles/dto/writer-profiles.dto.ts",
+          "hash": "5558402177710355526",
+          "deps": [
+            "npm:class-validator",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/src/writer-profiles/writer-profiles.controller.ts",
+          "hash": "6344479064501352057",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "apps/api/src/writer-profiles/writer-profiles.module.ts",
+          "hash": "11813138846607849783",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm"
+          ]
+        },
+        {
+          "file": "apps/api/src/writer-profiles/writer-profiles.service.ts",
+          "hash": "14606407845313977616",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/typeorm",
+            "npm:typeorm",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/api/tsconfig.app.json",
+          "hash": "6385052271996669993"
+        },
+        {
+          "file": "apps/api/tsconfig.json",
+          "hash": "12629745032125880412"
+        },
+        {
+          "file": "apps/api/tsconfig.spec.json",
+          "hash": "7699487533351179848"
+        },
+        {
+          "file": "apps/api/webpack.config.js",
+          "hash": "11488271643950040804"
+        }
+      ],
+      "shared": [
+        {
+          "file": "packages/shared/project.json",
+          "hash": "18272957919889667580"
+        },
+        {
+          "file": "packages/shared/src/constants/index.ts",
+          "hash": "6468536228527808862"
+        },
+        {
+          "file": "packages/shared/src/index.ts",
+          "hash": "10968948671860470669"
+        },
+        {
+          "file": "packages/shared/src/types/auth.types.ts",
+          "hash": "11876529400249346712"
+        },
+        {
+          "file": "packages/shared/src/types/company.types.ts",
+          "hash": "13289444473620348434"
+        },
+        {
+          "file": "packages/shared/src/types/content.types.ts",
+          "hash": "10132881485388095959"
+        },
+        {
+          "file": "packages/shared/src/types/index.ts",
+          "hash": "13309406941849929892"
+        },
+        {
+          "file": "packages/shared/src/types/user.types.ts",
+          "hash": "560240003969757470"
+        },
+        {
+          "file": "packages/shared/src/types/writer-profile.types.ts",
+          "hash": "8714078067395636100"
+        },
+        {
+          "file": "packages/shared/src/utils/index.ts",
+          "hash": "8723693140075391690"
+        },
+        {
+          "file": "packages/shared/tsconfig.json",
+          "hash": "4955604424410888574"
+        },
+        {
+          "file": "packages/shared/tsconfig.lib.json",
+          "hash": "16594285640646169466"
+        },
+        {
+          "file": "packages/shared/tsconfig.spec.json",
+          "hash": "7699487533351179848"
+        }
+      ],
       "web": [
         {
           "file": "apps/web/.babelrc",
@@ -657,7 +1617,7 @@
         },
         {
           "file": "apps/web/src/app/app.tsx",
-          "hash": "15726164676527953170",
+          "hash": "9126678596117757453",
           "deps": [
             "npm:react",
             "npm:react-router-dom"
@@ -666,6 +1626,132 @@
         {
           "file": "apps/web/src/assets/.gitkeep",
           "hash": "17577001130834759348"
+        },
+        {
+          "file": "apps/web/src/components/BlogPostEditor.tsx",
+          "hash": "6115384395121134593",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/BlogPostGenerationForm.tsx",
+          "hash": "13622887254089538272",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/BlogPostList.tsx",
+          "hash": "13138646945744601528",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/CommentForm.tsx",
+          "hash": "8427377228567197122",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/CommentThread.tsx",
+          "hash": "15097654326583830532",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/ContentLibrary.tsx",
+          "hash": "238523406376791243",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/ContentOptimizationPanel.tsx",
+          "hash": "15105203352969917590",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/ContentTopicCalendar.tsx",
+          "hash": "15253819952807298565",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/ContentTopicForm.tsx",
+          "hash": "6847311229203592038",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/ContentTopicGenerationForm.tsx",
+          "hash": "1151318008299314677",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/ContentVersionHistory.tsx",
+          "hash": "1457240581908517482",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/InlineComments.tsx",
+          "hash": "15721705700935767846",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/NotificationPanel.tsx",
+          "hash": "13717502915774105882",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/ParagraphHistory.tsx",
+          "hash": "18399923379843513865",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/PermissionGate.tsx",
+          "hash": "4119293684260485905",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/UserManagement.tsx",
+          "hash": "694413326073870389",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
         },
         {
           "file": "apps/web/src/components/auth/LoginForm.test.tsx",
@@ -732,6 +1818,77 @@
           ]
         },
         {
+          "file": "apps/web/src/components/company-context/CompanyContextDisplay.tsx",
+          "hash": "5191967950443521853",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/company-context/CompanyContextSummary.tsx",
+          "hash": "233804707339358569",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/social-media/ContentPlanPreview.tsx",
+          "hash": "10679664734165863763",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/social-media/SocialMediaGenerationForm.tsx",
+          "hash": "2599508314799222006",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/social-media/SocialMediaPostEditor.tsx",
+          "hash": "13197743850474146027",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/writer-profiles/SocialPlatformSelector.tsx",
+          "hash": "18142105490119488392",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/writer-profiles/WriterProfileCard.tsx",
+          "hash": "11099133989460964867",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/writer-profiles/WriterProfileForm.tsx",
+          "hash": "10402754131137366955",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/components/writer-profiles/WriterProfileList.tsx",
+          "hash": "8218117493815129700",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
           "file": "apps/web/src/favicon.ico",
           "hash": "772054191603519960"
         },
@@ -750,12 +1907,42 @@
           ]
         },
         {
+          "file": "apps/web/src/hooks/usePermissions.ts",
+          "hash": "535449065180538392",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
           "file": "apps/web/src/index.html",
           "hash": "2232200212486247476"
         },
         {
           "file": "apps/web/src/main.tsx",
           "hash": "2096250968175699004"
+        },
+        {
+          "file": "apps/web/src/pages/AIDashboard.tsx",
+          "hash": "17205667358525870170",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/web/src/pages/AnalyticsDashboard.tsx",
+          "hash": "6047608426797318613",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/web/src/pages/BlogPostManagementPage.tsx",
+          "hash": "10591829088479993299",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
         },
         {
           "file": "apps/web/src/pages/CompanySelectionPage.tsx",
@@ -766,8 +1953,23 @@
           ]
         },
         {
+          "file": "apps/web/src/pages/ContentLibraryPage.tsx",
+          "hash": "5851967183371904331",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/web/src/pages/ContentPlanningPage.tsx",
+          "hash": "13468470654565333404",
+          "deps": [
+            "npm:react",
+            "shared"
+          ]
+        },
+        {
           "file": "apps/web/src/pages/Dashboard.tsx",
-          "hash": "4703706506737936561",
+          "hash": "4512811873564012801",
           "deps": [
             "npm:react",
             "npm:react-router-dom"
@@ -788,8 +1990,48 @@
           ]
         },
         {
+          "file": "apps/web/src/pages/SecurityDashboard.tsx",
+          "hash": "550050994001308686",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/web/src/pages/SocialMediaPage.tsx",
+          "hash": "13134814757190207202",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/pages/UserManagementPage.tsx",
+          "hash": "7871897654835074210",
+          "deps": [
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/web/src/pages/WriterProfilePage.tsx",
+          "hash": "452798904171309406",
+          "deps": [
+            "npm:react",
+            "npm:react-router-dom",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/services/aiService.ts",
+          "hash": "3091218249697894732"
+        },
+        {
+          "file": "apps/web/src/services/analyticsService.ts",
+          "hash": "15742715236160526531"
+        },
+        {
           "file": "apps/web/src/services/api.ts",
-          "hash": "7540432311031045939",
+          "hash": "5912020199361350915",
           "deps": [
             "npm:axios"
           ]
@@ -802,6 +2044,27 @@
           ]
         },
         {
+          "file": "apps/web/src/services/blogPostService.ts",
+          "hash": "5895823470829695664",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/services/commentsService.ts",
+          "hash": "4148753014118777731",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/services/companyContextService.ts",
+          "hash": "4580987915090022919",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
           "file": "apps/web/src/services/companyService.ts",
           "hash": "8460738882188875963",
           "deps": [
@@ -809,8 +2072,78 @@
           ]
         },
         {
+          "file": "apps/web/src/services/contentLibraryService.ts",
+          "hash": "10604229615927634253",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/services/contentTopicsService.ts",
+          "hash": "13735361891310926227",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/services/rbacService.ts",
+          "hash": "2758174413532976826",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/services/securityService.ts",
+          "hash": "16774122784884451303"
+        },
+        {
+          "file": "apps/web/src/services/socialMediaService.ts",
+          "hash": "1334434515312338871",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/services/versionControlService.ts",
+          "hash": "9556308918035259053",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/services/writerProfileService.ts",
+          "hash": "13147459786002559687",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
           "file": "apps/web/src/stores/authStore.ts",
-          "hash": "7825086253545025911",
+          "hash": "5612455969034222621",
+          "deps": [
+            "npm:zustand",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/stores/blogPostStore.ts",
+          "hash": "1745585161632827492",
+          "deps": [
+            "npm:zustand",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/stores/commentsStore.ts",
+          "hash": "3623666221678301441",
+          "deps": [
+            "npm:zustand",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/stores/companyContextStore.ts",
+          "hash": "7272971081833388111",
           "deps": [
             "npm:zustand",
             "shared"
@@ -819,6 +2152,38 @@
         {
           "file": "apps/web/src/stores/companyStore.ts",
           "hash": "1127611997555623850",
+          "deps": [
+            "npm:zustand",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/stores/contentLibraryStore.ts",
+          "hash": "9621395284941974554",
+          "deps": [
+            "npm:zustand",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/stores/contentTopicsStore.ts",
+          "hash": "8427608186970795357",
+          "deps": [
+            "npm:zustand",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/stores/socialMediaStore.ts",
+          "hash": "8722366142775234499",
+          "deps": [
+            "npm:zustand",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/web/src/stores/writerProfileStore.ts",
+          "hash": "6241065744311564355",
           "deps": [
             "npm:zustand",
             "shared"
@@ -842,241 +2207,11 @@
         },
         {
           "file": "apps/web/webpack.config.js",
-          "hash": "1581972465063853992"
-        }
-      ],
-      "api": [
-        {
-          "file": "apps/api/project.json",
-          "hash": "1620290854178126"
-        },
-        {
-          "file": "apps/api/src/app/app.controller.ts",
-          "hash": "2757769081109258701"
-        },
-        {
-          "file": "apps/api/src/app/app.module.ts",
-          "hash": "16256620617989172404",
+          "hash": "3085229972690730708",
           "deps": [
-            "npm:@nestjs/common"
+            "npm:@nx/webpack",
+            "npm:@nx/react"
           ]
-        },
-        {
-          "file": "apps/api/src/app/app.service.ts",
-          "hash": "7453963155228556167"
-        },
-        {
-          "file": "apps/api/src/assets/.gitkeep",
-          "hash": "17577001130834759348"
-        },
-        {
-          "file": "apps/api/src/auth/auth.controller.ts",
-          "hash": "10466490791486555817",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/auth/auth.module.ts",
-          "hash": "6319870006812427103",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/jwt",
-            "npm:@nestjs/passport",
-            "npm:@nestjs/typeorm"
-          ]
-        },
-        {
-          "file": "apps/api/src/auth/auth.service.spec.ts",
-          "hash": "875210720848568489",
-          "deps": [
-            "npm:@nestjs/typeorm",
-            "npm:@nestjs/jwt",
-            "npm:@nestjs/common",
-            "npm:typeorm",
-            "npm:bcryptjs"
-          ]
-        },
-        {
-          "file": "apps/api/src/auth/auth.service.ts",
-          "hash": "10944565339314867837",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/typeorm",
-            "npm:typeorm",
-            "npm:@nestjs/jwt",
-            "npm:bcryptjs"
-          ]
-        },
-        {
-          "file": "apps/api/src/auth/dto/auth.dto.ts",
-          "hash": "6371068262717659197",
-          "deps": [
-            "npm:class-validator"
-          ]
-        },
-        {
-          "file": "apps/api/src/auth/guards/jwt-auth.guard.ts",
-          "hash": "9964501557004574976",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/passport"
-          ]
-        },
-        {
-          "file": "apps/api/src/auth/guards/local-auth.guard.ts",
-          "hash": "8931164904768089314",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/passport"
-          ]
-        },
-        {
-          "file": "apps/api/src/auth/strategies/jwt.strategy.ts",
-          "hash": "4574991711791235309",
-          "deps": [
-            "npm:passport-jwt",
-            "npm:@nestjs/passport",
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/auth/strategies/local.strategy.ts",
-          "hash": "5249045547368356670",
-          "deps": [
-            "npm:passport-local",
-            "npm:@nestjs/passport",
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/companies/companies.controller.ts",
-          "hash": "11760979460253472498",
-          "deps": [
-            "npm:@nestjs/common"
-          ]
-        },
-        {
-          "file": "apps/api/src/companies/companies.module.ts",
-          "hash": "3897054901145628854",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/typeorm"
-          ]
-        },
-        {
-          "file": "apps/api/src/companies/companies.service.ts",
-          "hash": "13266133302604459561",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/typeorm",
-            "npm:typeorm"
-          ]
-        },
-        {
-          "file": "apps/api/src/companies/dto/company.dto.ts",
-          "hash": "16434899477230952364",
-          "deps": [
-            "npm:class-validator",
-            "npm:class-transformer"
-          ]
-        },
-        {
-          "file": "apps/api/src/database/database.module.ts",
-          "hash": "2537296443341916976",
-          "deps": [
-            "npm:@nestjs/common",
-            "npm:@nestjs/typeorm"
-          ]
-        },
-        {
-          "file": "apps/api/src/database/entities/company.entity.ts",
-          "hash": "3424982730702028242",
-          "deps": [
-            "npm:typeorm",
-            "shared"
-          ]
-        },
-        {
-          "file": "apps/api/src/database/entities/user.entity.ts",
-          "hash": "15428391757329134011",
-          "deps": [
-            "npm:typeorm",
-            "shared"
-          ]
-        },
-        {
-          "file": "apps/api/src/database/migrations/1705123456789-CreateUsersTable.ts",
-          "hash": "17580600275606794661",
-          "deps": [
-            "npm:typeorm"
-          ]
-        },
-        {
-          "file": "apps/api/src/main.ts",
-          "hash": "9468052933639916923"
-        },
-        {
-          "file": "apps/api/tsconfig.app.json",
-          "hash": "6385052271996669993"
-        },
-        {
-          "file": "apps/api/tsconfig.json",
-          "hash": "12629745032125880412"
-        },
-        {
-          "file": "apps/api/tsconfig.spec.json",
-          "hash": "7699487533351179848"
-        },
-        {
-          "file": "apps/api/webpack.config.js",
-          "hash": "11488271643950040804"
-        }
-      ],
-      "shared": [
-        {
-          "file": "packages/shared/project.json",
-          "hash": "18272957919889667580"
-        },
-        {
-          "file": "packages/shared/src/constants/index.ts",
-          "hash": "6468536228527808862"
-        },
-        {
-          "file": "packages/shared/src/index.ts",
-          "hash": "10968948671860470669"
-        },
-        {
-          "file": "packages/shared/src/types/auth.types.ts",
-          "hash": "670048276249239847"
-        },
-        {
-          "file": "packages/shared/src/types/company.types.ts",
-          "hash": "13289444473620348434"
-        },
-        {
-          "file": "packages/shared/src/types/index.ts",
-          "hash": "3121424296785512318"
-        },
-        {
-          "file": "packages/shared/src/types/user.types.ts",
-          "hash": "10862217546996435804"
-        },
-        {
-          "file": "packages/shared/src/utils/index.ts",
-          "hash": "8723693140075391690"
-        },
-        {
-          "file": "packages/shared/tsconfig.json",
-          "hash": "4955604424410888574"
-        },
-        {
-          "file": "packages/shared/tsconfig.lib.json",
-          "hash": "16594285640646169466"
-        },
-        {
-          "file": "packages/shared/tsconfig.spec.json",
-          "hash": "7699487533351179848"
         }
       ]
     }

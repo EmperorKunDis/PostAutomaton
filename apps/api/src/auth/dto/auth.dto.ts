@@ -33,5 +33,9 @@ export class AuthResponseDto {
     email: string;
     name: string;
     role: string;
+    isActive: boolean;
+    permissions?: string[];
+    lastLoginAt?: Date;
+    companyId?: string;
   };
 }

@@ -30,7 +30,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
       authService.saveAuthData(authResponse);
       
       set({
-        user: authResponse.user,
+        user: authResponse.user as User,
         isAuthenticated: true,
         isLoading: false,
         error: null
@@ -52,7 +52,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
       authService.saveAuthData(authResponse);
       
       set({
-        user: authResponse.user,
+        user: authResponse.user as User,
         isAuthenticated: true,
         isLoading: false,
         error: null

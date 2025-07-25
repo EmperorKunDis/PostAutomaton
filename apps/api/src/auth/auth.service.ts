@@ -32,13 +32,20 @@ export class AuthService {
 
     const payload = { email: user.email, sub: user.id, role: user.role };
     
+    // Update last login
+    await this.userRepository.update(user.id, { lastLoginAt: new Date() });
+
     return {
       access_token: this.jwtService.sign(payload),
       user: {
         id: user.id,
         email: user.email,
         name: user.name,
-        role: user.role
+        role: user.role,
+        isActive: user.isActive,
+        permissions: user.permissions,
+        lastLoginAt: user.lastLoginAt,
+        companyId: user.companyId
       }
     };
   }
@@ -72,7 +79,11 @@ export class AuthService {
         id: savedUser.id,
         email: savedUser.email,
         name: savedUser.name,
-        role: savedUser.role
+        role: savedUser.role,
+        isActive: savedUser.isActive,
+        permissions: savedUser.permissions,
+        lastLoginAt: savedUser.lastLoginAt,
+        companyId: savedUser.companyId
       }
     };
   }

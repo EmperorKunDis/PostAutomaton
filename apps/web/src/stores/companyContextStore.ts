@@ -49,9 +49,8 @@ export const useCompanyContextStore = create<CompanyContextState>((set, get) => 
     try {
       set({ isLoading: true, error: null });
       const context = await companyContextService.analyzeCompany({
-        companyName,
-        industry,
-        description
+        companyId: companyName, // Using companyName as companyId for now
+        forceRegenerate: true
       });
       
       const contexts = { ...get().contexts };

@@ -9,22 +9,20 @@ interface CompanyContextSummaryProps {
 
 const getSizeIndicatorLabel = (indicator: CompanySizeIndicator): string => {
   switch (indicator) {
-    case 'startup': return 'Startup';
-    case 'small': return 'Small';
-    case 'medium': return 'Medium';
-    case 'large': return 'Large';
-    case 'enterprise': return 'Enterprise';
+    case 'Startup': return 'Startup';
+    case 'SMB': return 'Small Business';
+    case 'Enterprise': return 'Enterprise';
+    case 'Corporation': return 'Corporation';
     default: return 'Unknown';
   }
 };
 
 const getSizeIndicatorColor = (indicator: CompanySizeIndicator): string => {
   switch (indicator) {
-    case 'startup': return 'bg-purple-100 text-purple-800';
-    case 'small': return 'bg-blue-100 text-blue-800';
-    case 'medium': return 'bg-green-100 text-green-800';
-    case 'large': return 'bg-orange-100 text-orange-800';
-    case 'enterprise': return 'bg-red-100 text-red-800';
+    case 'Startup': return 'bg-purple-100 text-purple-800';
+    case 'SMB': return 'bg-blue-100 text-blue-800';
+    case 'Enterprise': return 'bg-green-100 text-green-800';
+    case 'Corporation': return 'bg-orange-100 text-orange-800';
     default: return 'bg-gray-100 text-gray-800';
   }
 };
@@ -63,20 +61,20 @@ export const CompanyContextSummary: React.FC<CompanyContextSummaryProps> = ({
         </div>
       </div>
 
-      {/* Industry Analysis Preview */}
+      {/* Industry Vertical Preview */}
       <div className="mb-3">
         <p className="text-sm text-gray-700 line-clamp-2">
-          {context.industryAnalysis}
+          {context.industryVertical}
         </p>
       </div>
 
-      {/* Brand Positioning Preview */}
+      {/* Competitive Position Preview */}
       <div className="mb-3">
-        <span className="text-xs font-medium text-gray-600">Brand Positioning: </span>
+        <span className="text-xs font-medium text-gray-600">Competitive Position: </span>
         <span className="text-xs text-gray-700">
-          {context.brandPositioning.length > 80 
-            ? `${context.brandPositioning.substring(0, 80)}...` 
-            : context.brandPositioning
+          {context.competitivePosition.length > 80 
+            ? `${context.competitivePosition.substring(0, 80)}...` 
+            : context.competitivePosition
           }
         </span>
       </div>

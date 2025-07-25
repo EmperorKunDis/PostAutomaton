@@ -57,7 +57,6 @@ export const useWriterProfileStore = create<WriterProfileState>((set, get) => ({
       set({ isLoading: true, error: null });
       const profiles = await writerProfileService.generateProfiles({
         companyId,
-        userId,
         count,
         includeCustomization: true
       });
